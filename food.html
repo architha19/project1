@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle,min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <!-- Font Awesome CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <style>
+      .footer{
+      border:3px  deeppink solid;
+     }
+    
+              ul.socialIcons {
+        padding: 0;
+        text-align:center;
+      }
+      
+      .socialIcons li {
+        background-color: yellow;
+        list-style: none;
+        display: inline-block;
+        margin: 8px;
+        border-radius: 4em;
+        overflow: hidden;
+      }
+      
+      .socialIcons li a {
+        display: block;
+        padding: 0.5em;
+        min-width: 2.28571429em;
+        max-width: 2.28571429em;
+        height: 2.28571429em;
+        white-space: nowrap;
+        line-height: 1em; /*it's working only when you write text with icon*/
+        transition: 0.1s;
+        text-decoration: none;
+        font-family: arial;
+        color: #fff;
+      }
+      
+      .socialIcons li i {
+        margin-right: 0.5em;
+      }
+      
+      .socialIcons li:hover a {
+        max-width: 200px;
+        padding-right: 1em;
+      }
+      
+      .socialIcons .facebook {
+        background-color: #3b5998;
+        box-shadow: 0 0 16px #3b5998;
+      }
+      
+      .socialIcons .twitter {
+        background-color: #00aced;
+        box-shadow: 0 0 16px #00aced;
+      }
+      
+      .socialIcons .instagram {
+        background-color: hsl(344, 88%, 50%);
+        box-shadow: 0 0 16px hsl(344, 88%, 50%);
+      }
+      
+      .socialIcons .pinterest {
+        background-color: #c92228;
+        box-shadow: 0 0 16px #c92228;
+      }
+      
+      .socialIcons .steam {
+        background-color: #666666;
+        box-shadow: 0 0 16px #666666;
+      }
+    
+      .socialIcons .youtube {
+        background-color: #ee1935;
+        box-shadow: 0 0 16px #ee1935;
+      }
+    
+      .socialIcons .Telegram {
+        background-color: #2b92f3;
+        box-shadow: 0 0 16px #2b92f3 ;
+      }
+    
+      .socialIcons .googleplus {
+        background-color: #1927ee;
+        box-shadow: 0 0 16px #1927ee;
+      }
+    
+      .socialIcons .Linkedin {
+        background-color: #5919ee;
+        box-shadow: 0 0 16px #5919ee;
+      }
+       p{
+        color: aliceblue;
+       }
+       .body{
+    background-image: url(https://i.pinimg.com/600x315/79/d2/aa/79d2aacc757d8958c17c4faf55e4a688.jpg);
+  background-size: cover;
+  }
+       #img1{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ height: 100%;
+  width:100%;
+       }
+       #img2{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ height: 100%;
+  width:100%;
+       }
+       #img3{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img4{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img5{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img6{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img7{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img8{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img9{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img10{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+       #img11{
+  border:5px black solid;
+  float: right;
+  padding:5px;
+ 
+ height: 100%;
+  width:100%;
+       }
+      
+    </style>
+</head>
+<body>
+    
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/736x/55/c8/e1/55c8e1c158637d70b33208352634da97.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://www.eoibudapest.gov.in/ascc/docs/7b7b7673204eaac8a7b2fbf2811f6ca623240072.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.toiimg.com/photo/msid-82403294/82403294.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://i0.wp.com/timeskuwait.com/news/wp-content/uploads/2021/08/Spices.jpg?resize=696%2C462&ssl=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA spice bowl</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://www.ciiblog.in/wp-content/uploads/2019/03/Urban-India5.jpg" class="d-block w-100" height="100%" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA ARTS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.tusktravel.com/blog/wp-content/uploads/2021/04/Top-30-Most-Famous-Festivals-of-India.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA FESTIVALS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.spinonholidays.com/wp-content/uploads/2022/01/historical-monuments-of-india.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA MONUMENTS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.oyorooms.com/blog/wp-content/uploads/2018/02/fe.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA WEDDING</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="http://www.general9ledge.com/wp-content/uploads/2020/07/National-Symbols-of-India.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA NATIONAL SYMBOLS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://thesiliconreview.net/story_image_upload/article/thesiliconreview-technology-lifts-agricultural-farms-indian.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA AGRICULTURE FARMS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+     <!-- Opening of Navtag -->
+
+
+
+    <div class="body">
+      <div class="nav nav-tabs  nav-justified  fixed-top" role="tablist"> 
+         <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+           
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="about.html" id="m1" data-bs-toggle="dropdown">ABOUT INDIA</a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">
+  <div class="dropdown-menu">
+  <li class="dropdown-item"><a href="history.html" class="dropdown-item">HISTOTY OF INDIA</a></li>
+      <li class="dropdown-item"> <a href="arts.html" class="dropdown-item">INDIAN ARTS</a></li>
+          <li class="dropdown-item"><a href="weddings.html" class="dropdown-item">INDIAN WEDDING</a></li>
+              <li class="dropdown-item"><a href="jewelery.html" class="dropdown-item">INDIAN JEWALLERY</a></li> 
+                  <li class="dropdown-item"> <a href="temples.html" class="dropdown-item">INDIAN TEMPLES</a></li>
+                  <li class="dropdown-item"> <a href="agriculture.html" class="dropdown-item">AGRICULTURE</a></li>
+  <li class="dropdown-item active"><a href="food.html" class="dropdown-item"><button class="btn btn-danger">INDIAN FOOD</button></a></li>
+              </div>
+  </li>
+  
+  
+  <li class="nav-item"> <a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+    <li class="nav-item"><a href="dance.html" class="nav-link">INDIAN DANCES</a></li> 
+        <li class="nav-item"><a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+             <li class="nav-item"> <a href="national symbols.html" class="nav-link">NATIONAL SYMBOLS</a> </li>
+                    <li class="nav-item"><a href="religions.html" class="nav-link">INDIAN RELIGIONS</a> </li>
+                    <li class="nav-item"><a href="r new style.html" class="nav-link">INDIAN CULTURE</button></a></li>
+                          </ul>
+                        <div class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="" id="m1" data-bs-toggle="dropdown">INDIAN FESTIVALS</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown-item">
+                                <a class="dropdown-item"  href="bhonallu.html">BHONALLU</a>
+                               
+                              </li>
+                              <li class="dropdown-item">
+                                <a class="dropdown-item" href="bathukamma.html">BATHUKAMMA</a>
+                               
+                              </li>
+                              <li class="dropdown-item">
+                                <a class="dropdown-item" href="ganesh.html">GANESH CHAVITHI  </a>
+                               
+                              </li>
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="raksha bandhan.html">RAKSHA Bandhan</a>
+  
+                              </li>
+                            
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="diwali.html">DIWALI</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="sankranthi.html">SANKRANTHI</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="ugadi.html">UGADI</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="shivarathri.html">SHIVARATHRI</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="teej.html">TEEJ</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="chistamas.html">CHRISTAMAS</a>
+  
+                              </li>
+                              
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="ramjan.html">RAMJAN</a>
+  
+                              </li>
+                              <li class="dropdown-item" ><a  class="dropdown-item" href="muharram.html">MUHARRAM</a>
+  
+                              </li>
+                         
+  
+                              
+                            </ul>
+                          </div>
+                          <li class="nav-item"><a href="login.html" class="nav-link"><button class="btn btn-warning">LOG IN</button></a> </li>
+                                    </ul>
+                                    <div class="abc">
+                                      <form class="form-inline my-2 my-lg-0">
+                                       
+                                        <h6><input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search"><i class="fa fa-search" ></i></h6> 
+                                        <button class="btn btn-success" type="search">search</button>
+                                      </form>
+                                      </div>
+  </div>
+    <!-- Closing of nav Tag -->
+
+    <ul class="nav">
+      <div class="row">
+    <li class="nav-item">
+        <a href="food.html" class="nav-link">INDIA FOOD</a></div>
+        <div class="row">
+          <div class="col">
+    <p>Indian cuisine consists of a variety of regional and traditional cuisines native to India. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits.</p></div>
+    <div class="col">
+        <img src="https://lunajaiswal.com/wp-content/uploads/2021/09/food-diversity.jpeg" id="img1">
+    </li></div></div>
+
+    <div class="row">
+    <li>
+        <a href="masala dosa">MASALA DOSA</a></div>
+        <div class="row">
+          <div class="col">
+     <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFBcVFRUYGBcZGh0dGhkaGhoiIBwcHB0ZGRwgHSAgICwjHB0oIRoZJDUkKC0vMjIyGyI4PTgxPCwxMi8BCwsLDw4PHRERHTMpIykxMTMxMzIxMTE3MTExMTExMTEzOjExMTMxMTExMTExMTEzMzExMTExMTExMTExMTExMf/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAEBQMGAAIHAf/EAEIQAAECBAMFBQYEAwcEAwAAAAECEQADITEEEkEFIlFhcQYTMoGRQlKhscHRFGLh8CNy8QczQ4KSosIVJLLSU2OT/8QAGgEAAwEBAQEAAAAAAAAAAAAAAgMEAQUABv/EAC8RAAICAgEDAwIGAQUBAAAAAAECAAMRIRIEMUETIlEyYRRxgZGhsQUVUsHR8EL/2gAMAwEAAhEDEQA/AKH2f7MTcUcyRkli8wi+jJ94/COo7I2LJwqckuXWmZZqpXU/QUhvLlploShIAGgHAREhOdlAbpJY/XnEN172HHYfErRFWbpn1yi/7frEyEvUlmD14wMhQlmtTYHUxrNmqsOP9axNn5jIYlgAHc6mI1YjgKiIgUjxHoNIlnrSEFRLAGpNGj2ZnaT4aTTMSzh/2YinqSVMzC3M9YWf9ZQBlDrre0H4baMpQ0Sef3jBYp1mL
+     FiZxmYhStBqzcvtE4cioHJz9oGm4tArnEL8RtoJSSlJURoIEuq9zCLqPMeS01NWfhGszFS0vmmZRzIrxilTduTZhIKsj6Jp8Y0Qv3q8/vCbOq4/SIh+oUdpapm3ZKaIzqOmg+N4iG139k9SqK6tOojaRPILG0TP1Nh7aiTe0tCdo5tCOionTjEht5QaE2HBUQlIKiaAC5gPbvaCXhgUS8s2cKKJrLQeAA/vFD0HOKOle638vmElrmWibjwEledPU0HrAk7tVKTRyo65QW9S0cpxvaCatWaYpaifQcgNBGuIxS0jf3aAtwBqIubkp0JUN950DEdqUqNJRDVfOPsY2T2ppmVKITyKfsIoElamzZgXjJO0EhdQSq370hBL5JE0gTpGD7a4Fe6ZipSv/sSW/wBQcfGHUucJgeWtKkmygRX0jimOwgWSuWAAPEH15CBsLtxcogy3QRdia9RFQAcaEXyK953oSwBvD6wPOIdkjzdoonZzttnI
+     RMISs0BPhP2MXNGPzMFADrUQh7Ahw+oQtGcGRLkTCp1WFhx84GmykAuQXPuuYOASpR3yR+WgiNUxCPCXA0Yv6x7UcDFv4ZarTVID0SzP1j3F7NlKTlnSkrTxZz5EVgoTVKUy5agk60p6Vj1KEiqCSX0rHlYqcqZp33lR2j2HlLGaRMVLPuzKp9biKzj+y2JkuVSwtPvSy49Lx0ufiVsc0skuwUn5kQEMKVlxMJPuqLN9Iur/AMjYmjv84k9OjfacoUggsQQeBEZljqmIwkqYnJPk5tAuyk9FXirbS7ITEurDkTU+6WCx9FR0KOvrs0dGIsoZe25Uymh4xHE81CkqKVJKVC6VBiPIxoRF8nkTR7GOIyNyJmJ3yQk3V6cev2iFeKZgB04frA83ElasqQGa7npvcuWseTFBIUpzxOtvkI+SzOnibrDq3jz/AKxsrFOd3ShHCBCrMCTQM76nVhwgKbjcqVJlpzLAdnZ1
+     cCYEkDvPM4UZMI2tteVJO+cym3JY1NKk6CKxidrzZqs0xT8E2A6CE85S1TFKmP3hLqfjwbQRvKme96wFm+059txbQ7R/h5wNix4QYie2rQilridc0tWsRMu5MTH6VJVehjRaCOYhYie0GycZSFlTPcoFjZDbyRTUDTmIDRiynmIeKANUnyhZi8KFOwY8IYm9GeLTxOJBqk+USpxYdjSEc+SpBcR7s+aZs2XKN1rSn1NfhDh0/LtNBzLlNxCpMgJQSJ05LuLy5RoG4KXd9E9YpO0pK01aLDtraxM5akMl1MOOVO6keQAiTBYT8WnLMO4PEsXHJ+Jhhu9LAA9o/wDZnUrqwsokxalEataG+DwWIIMxWHzoAr3m6CBR6kP5RfNly8JhhllyUv7yqk14q0+0OzgkT5anOZSklns5FG6FoU/+QUnCj94xqiBucvlCYZ4TNQiVLCMyRLQ
+     GuHD6q6xb07BkKlkJJdQBUVBNaX8Ljyip4vaCpc1MmdLWiYKZW1JYEcQTqItUhcwhKZhYiwBBy/zN8oHqjYMN2/LzNVEx94kx2xFlOWRJQnQtMJUaauBWK/j+ycyXL75QOQHeAd0vTW45x1NIWkBRWghQcFLjpSJMVglrkTJYUP4kshiHAf5x6vrHUj48wVUHIYZnFFYdDshdeEXrsfthSx3E3xpDoV7yeHURttDsdLRKM1MxlpTUMAk/WK1sHEpE+WrMzLAPQnKfnFbOnVVkDf8AwYuyvWJ0xKxEiErI/vBQWIp94EmDITGpXqI5Vd71HHcSVb2T8oWJ4SMubzAcCPUIz7zueIMRSccLFgYKSAplBQB4iOjXajjUurtV+0FWtSHJUFA8KEfeIlS0zLKJ4gjL/WCpkxKRvgH8zsfSBlZV+EpI0cF4b9owGalGVJAqG8JB+cDYdAUS5UhXspJZ+UEGTNBDLzDVJ4cojmb1M2UuQxZ/Ux7tPZgO1lSF
+     /wAOfKznRgQsdFC0VDaPZdVVyCqYnWWps4HJqK+cXPu1i6s6dQqNFSSWMogG+U1I6cYqq6uyvsdfEB6kYbnLCQKGh1BDEdYyOp5QfGl1akoRX/bGR0P9T
+     X/b/Mn/AAp+YznrEtGVOgYefGPZ6MyADQcHvap9IFll0Equ1joWd+tYB2xtYITlqVKol7PxPSORjEoYgDJkO1dq5CZaTvnXQD7wHg1tCpcskkmpNzBGFn1YxNb7hqcy2wuftHWIwqJwZVFCyhf9ekIsZglS/HUaKFv0hvJmwYVhYyqAIOh1hSsy6PaIzKbLnEVGukHyMSFQfJ7LTJ0wiWQiWGzTF2S+lKqVwSK/OLZsvszh5TFMszV272aAa/lQd1PmCecWin1BntGrUzyoypK11QlSugLetoIGzZp8KUjkZiB/yi64jCuRmc8OnLQekD/gasCxjR0ijuY5emXyZTDhpyTdIa7L
+     B+MEgqXQje4gg/IxaVbKWzux4EejHWBJ+zpjeyrqmNPTp4hfhl+ZVcUrLRaSPKAMMpKJ8qZbJMSfJ6/CLNipMxCWMsKHAEEf6SCIQT5UqZQylyVksCg55ZJ95B3kdUlvyxqVcTkGB6JXYiiUJk3GHD1KjNUkngkEur0+kdQRL7uWEIyiWkBk683946vFRw2zpmHxK5k1GVapeQqdxmS28lQ0UlKebu8MNobRzAZ1cvs8Q/5AFrAijU6nTLleRjSZtBITkWnN7pYU5HkYk2PtfKsSyKE7pBs9WMVGTjO8UUqQUpSQUrHtUL0LekONnJWXKVZUtcCpbiT9IjejguGlHDmD8QztBglzMV+JZG4lOVLEq3Sak6AvaJdoS8VMkZ5EpMtZcF1JG6W3g/nSGOGmBr8HeGhWCl9GgfXOs7x8yU18Tqc8w+0p2HmplYtKkNRCj4VDRjYjg0XXC45KwAg5idEl2iHau2EoljNkUmjhTFkvUseUc7Rtg
+     KmqEgmWhZYAXyi2YisP9P8AEDkox/UGy0V9xsy0dpsWJeZLuVZnQCCXam7oDHJZMxRmjIKqWGA4lVB6xcdq4mXNmv3gyhIzKHEaDj1iHsds1OIxyp6U/wAHDsslVlTAGlJ6qWAeiTHT6JBUhyPGTJnsdtnt4nQ8SopmLBqAW9KGIFMbGIZWKWSUzUELuVDwnnG4UlwTfSOFYCXJPncTV0tlp0NfMwSQqhMM8MAkAAt++MDSEm8HS5b6P5RTQvwJ0U6ZahqFoBJ3gk9QIk/CSlVKE9W+0aIyi7t+6R6ic5a31i4sq+ZnHM8nbJSsbqiD1pCXH7IUh1kU94afpFllqqG84KxEsLQRyg0YN3g8isoffBJZW9+YAv50gechTnKGbVMF4yYrOqWUssU3qBQ0I6wAlExL5SGN0i3O8FGZmv4mdqon0/8AWMidh/8AMRyYU+EZHsz
+     MwXGY5WYITSgUo8AXH0hJiB3hJZmoBwHPmbwZiTYMVH2iBc/KnCITLNwIx2I0JD1Vh+kQKXMy0NRoeEeTlaiJMQPyl9YXrLU9k6QITO5JiEI2gXY+sO9kTzNmJlgsTc+6kVUfIRU8QRpSLV/ZtL7xeI4hMtIPALUsq/8AAQ5KQxhqgLToeClBSAwKZSfCLE8VK6/GJ5C86gEEAPrenyj3ETGUEBgB8eUaT1IAcULVEUk40JaBN8TKOcJTlLF1B9G9I1xAWkUlAl6HlxMItpbTShyg7+hLaVrx1EM8BtSfMw4mKkpBLju0rKSUAkZkZxlL3qodTAKQzEC
+     eZuPeTLxq0J35aqXao/QQqx3alO9Kw6QuaUE5Vlkhrs53lAOWHAxitvoWKFUolwkTBlSs2oqqCXBoC9DSKZtvBvMKkJKphUaAZgr2i41F6RjNxIGYDtkah3Z3tOZcwy8Wi5bvSjKUs5aYnLvUFCQ9S9LW7aGwZU4BUspBbMCKAgsQQYqMnA4jFzmm5SgZZiwAA/ebxylOrpZuRi/4DFZh3ZlpaWwyhqCwpBcgdTa84lLkYIyZixPSpUtYOcVGa1QfeDUMV/beAVLImSypUhQdCiXylg6ZrAZVAuOBBFax1TaGATMllvDqHqk8nih47CzEJny0LKVoSqbLKfflglQ4KSuXnBSXBo9oz0wxwf0j1sIGRAJW1Za0y824tKdfDSwS1S/OLVsqT/DUShgSSnV0tfzrHNcHtmQus2V3Sz7ckAoPNUpRAT/kUB+WOobK7S4
+     KZlCZ8sUbKp5Zs1AsB/KOV1vSsv0gkfbccOrBXGYL+JGdks3P9I8moMlClGaHWycqnLvcJHFo3mbJnLmKmIyqQpV0kFg16Gr/ADgiVIdiuQtK0AgFQfzBsLREK3B7H9o7mvHUqXbfFAy0SwGJLjiAAQzcC4isT0CQjMSRMy0b8xvbhQ1h1t7AzjPVMWqTLBJAVMmISEoFBlTmzksHonWBtn7JlHeUtU5HRUuWfX+IvyCRzjt9PV6VQ5dvM5ro1th4iKNnbEXiypaZgCAR3q1g5UP0FTwSKkxe8JKMqWmThkmXKQSSpY3pijRUxbe0WYCuUBuMeyU0TLQMqU+FCEhKUuHJA05k1PGCZUtVszcs1Sxrb62gbrWsHBe0vq6VFGX2f4kKNnKU5XMWSdVUGulzBeG2RNA3VsOFbebtDOWCDmUUpqA5Iavl9zDKZi5coZMhK3q7sLEOHdqAsRrUB2ha0Ko5WHUc1pHtQRdIllCM0xLD3iRSpvX4wQjaKSClCcwNladePH1jRSzN/vCrMX3T4R0B0+8A4TDd2tSVWNjE1l2j6YwPmeC5+rvGCVk1uYIlwOql9bc4kQrjCEJzuKddQ2Wti8HSZmkLElxwibDr3m4xUrYMQRkQbtNszOnv
+     EB1JGlyOraRVErUaKISRZj4vheOiirgxU9u7LKSVgkJUeHhMUZyMzEONRB+HJqVLrzH2jIkdPtS8ytVPc8bxkezDkuA7MYtYrL7sHWYQn4VV8IZyOxbEGbP8paf+SvtFxXMc3gWfMADlQA4kgD4x0Pw9Y2ZAKeRyYkPZXCe0iYvrMI/8WgTFdl8Cf8FSeaZsx/iSPhDg4hKg6VAjiDAOJmxoFfgCO/D47iUnbXYZQBVhZnegf4UxhMb8qhurPJknrEH9muI7rGFCgyZqclQzTEHMkEGx8aW4kRaps+K5t/BZlCdLJTNBBJFMzMxP5g1FRntB1MPTkbWdHVfKoiijwe7axB3rOQCS9i9uELdhbcTjE5SQnEJG+LZmoVJHzGh5EQyxIJAcsRqLPzhbZhgY7yDH7BlTQNwJ
+     LOGs/wBITzNnTk5BKWuWpAKd5SjLOgd3SODc4cS1TBY/yueTm1oklzQtRQwCstSlVD94WVB2NGYy50ZWMf2Znz1JzKyooJhLKq10pq2uoBeHeF7Py5CBLRK70aqUS5sQzME9BBaETJamQcySbEh/MawxStRllJBBqMwH7bhGlQx3AFYXYgmAUiWyO7VL3qFqBy9/OD1YVHeFSTlU1aUP2gbDYpfgmBiGq1xX9IMlTKggVsR9YNMAYhGQ4aWpOdKhT1B4GK3tbImcFigZRUOAyKz+TPFpxs4Di7Rz7tpjwiWtILrnAoSOEo0WvopigcXVwhmhAZ8DJnIpcwpAidM8GCcTgtRHmzNhTsTM7qQgzFsSzpDAMHJUQBcaxoZG3J193aAzUDlEuB2dMnKZCSrQqLsOp+kWuR2G
+     nSi+JkzVEeyhKin/AFpcGGctTJZEvLLSQksksl6AE8TSnOMNvhdyyqjO2Ooq2d2eSipBmLFy1B/KD4jzr5Q/kpe+U1YpGV60c3INDGImlTBwAio4C5Nq2HB4YSNmqT4ikFDJKS9cwozilcoYl4Sa3c5bcuVq0GFnuHQVFvCGc3pUJY0BF+FqxYpuERLloV3iCTkJdSSE5mCTRTsSLgVBNCRCRM/JutVLimZLh7MS4DjlQ1paHETpgoVgSyoKICReqiVEDeN7262L2JruZjc332EbTMbUIllSSQQFZiUqapbVQD0Jt5QLKLAuBd3LOznnrV/LjA8lRAYvYkPZzY/05QTiFgpTRySATQKNCC9xlrHPuy5y0cihdCHIV7QUbDMLvo/IhjEgGckVIIB5jj++UCYWYMoAZxRVGepH3hm6XDBsw+NTfziYpNJxIkS1EEKrlsekSIII5xupVWGvz5wHh15VFJ1dvp5R4iAVyIahVen6xMgtURFLrBAYQYGRJjow9KnYjWNcYhJSczMQxiHDTafOMxG8kiHh8DIiyu5R8VJZagFqIBpb7RkWSbsmWolRdzepEZG8YfIRJ2j
+     7TTQlSMNlzJVlUolNC1g9HiiTsTPWM81UxZbUk1HLgOdIF2fjQpalKJ/iKL8iS7+RhljVJSGqKX1cuGIsxh1jvy4tud7p+nrWsMsg2dtJZWlKlqZ00uDUaadYe42d3QUpJKWSa2rXiGUKQo7NSkla1EqzgbpApW5LChFNRDPaWISsZMgXStag9CLxPZgOMSmsclwRn85Lg9oFQT3j74dKizHiKWIaCl1DQtw86WmWElZOQtlatCzU6X5xicQpCQsJzyzUlN01rSHJdvif3knU9Hn3oP0/6gu0MGtKu9luJiS+6WJIsQRZXOH3Z3+0AKHdYlOY2K0Bi+veIZ/NPpHkhaVAKBBBsYr3ars7nQrEygy5YzTEjVAusc068q6VsQZ1ON1AwM4nUcOJc4BUqYlbVOUhxyIuD1aNu6RmS7IUzZq1uzxwHDYlaSFJUoKFlAkEeYrD/DdsMYgMZveJ4TUpV8SM3xjCokItE62qTNSUqooXDG/7aCEYgpBzIUHOunARy9H9pGKSADLlKa3jDf7jEx/tXnAN+Glf/ov6xq157Gb6gM6mSfaqBUEaNzaPFBLOo5SA+a48+Eccxf8AaXjVuJaZMoH3EEn/AHEj4RX8ZtXEYj++nTFj3Sd3yQGT8IPgB3mFxOpdoe20hDy5LT5tiQT3aTxUof3n8qe
+     bqFoo05cyYsrmEzFqqT8KAUAAYACgFIhwGzSwUrdGgpmPlp5w4SyU5UhrOT92vE1jFjgdp5ele05bQgiMAm6+uV2+P2iydj5bLmKAyhICQBapc9SwFYQTEgkgjgwccNOWaj8dYtvZmWESntmUSASHAsAWobaUhd6cajnzK0rSv2qJZpeMULKPrBH40qBSsBSTdKgCD1BvCsLiaUpyI5RBHYw8A9xA+1eDkysP+Kly8pSoBSJbJCsxIDUpVVWu5cGKdg9pzV+IZJeYFKWdSa5qKIB1oOA84u3bOYlODQgliuYlhxCQSejUimNQAAhJ8Q6MCWt/XlHW6ex2qHIzakXB15hmBTmRvTA5UogE1UKE1zVrZwDR+MGZnzkqCi4zB2KqEOGs1H6WhdgFkO7OMpSSnwkF3A/zVHPlB0jChZBCgCs1csBmJch6hIc0BuQWgWHFjkx4ORJ8RMGcFDJS5a7UB4Vq3m8GqkkISomr7wysA4FHFCPTSFn4dMuqilaLghYysC5fokkE0pDLAJSpAXm9tsvEF+fxhTjIxNziRBADtUE6cdfr8IOlKAAZmA1voKRpkBZIDAB2BejFn1e3WNUIZwx4s9uLa6wh4XeGLmAlLP14BrwNj5gQoNc/t4gxeIKAAkVN+kB4/EkkEhqfKFFtwhWcAx0MQxrGyJ8
+     LFzq+T/CPe/YOTRnhJtI0Ihk8xsiezmN0YnhX6RTMX2kFpKc/5jRPl70NewmNXMmzJcxRJmSyOQIsw0ufSH0V2MQG1I7L6weI2Y0mbSDlgT5n7RkL5oUCQMrCg8QtGRZwMPAlExGy0LOeTuK9pFgeYPs9LQm2n3qS0xBSBS1OVRfWL8JUqfvJKZMw3H+Gs8vcPqOkA4vDzZHjSQDQOAUqHIh0kdDBcnQ+4ZHzO8jV3LhG4n4lL2ZtoyjTRzxuGLjURbMPiEECY6Cqqcw40KaPqA3XmYFmYOTMLqQKagMS7u7EPE0zZkiXZBSx3nzHoUu4gLLK37Agx1NV1Zw5BHjwZssuFEhIWVKDkHMLivL99fZM9MuYEBwFDwqNH4hVuPrDCbiEZRUHMRmd3DDThb5Qh2mtCUuQSztxd9BeFJ7jxlDNhcmWKShKdxLMBRtOPTpDzZsvdmLUAUJlTSt7ZcineKv2M7OYopM2e2Hw75jMmMCRrlBqxpW0adt+1iZkpWEwTiSaTZtlTW9kahHHj0v06UKfUZ8x13UV/wDydnv9pzOVOIglGIBiJWFMa/hVcIoPAzj6MLTMEeKCTGmC2XNmKyoSSdToOpi04LsoEby1ZyKlknKPLXqfSFOyJ5lFXTPZ27fMTbO2SqYxCd33jby4xZcLslEogAZl03mcVs1KeT9YKTLJISlNvDW/BmFHe19OUTJkasyQwVQln+7O+kTNYzzpV9Kle+5kC0C5ajah/k36NxjUoA3VFi9iDxq7V/pE6mqGrxpRmZnPH5tECmJzUVloxBI3k5fX7QSnEaRmRTJgRmCk0Vro4N6cqcwOVa/tuYVzStBUEpYAZi4IFxZqxYQ6kKCt0JDklJdWagF+LFw1HgVeBJVUpzM9GILiqWYF9DavODNhGov0gTmL9ndo8Whh3pKfzjN8bn1ixbM7XTisJUhB6OH8nLQLK2QEqcBw7ZGJYuKEFO6rlW2sH4HAS0qUSkAijAcncPd7dX1idwlhxxhisKNxjtzakzEhGeWhKUOAAT7TPUmtuAhfh0sl3sNXpQdOJ+ETLL7oqag8vhdniaRISQUl+SQWPh4guDb4Q7ARQIIAHaay0kgl66/AHrT184KKWDEE6gi768ftrEeGQUliHSAGAp0Yjygm/J/Qbo5m9fS1oVYdzV7SaWpwFJASQz1KiD4nSDdxRq2hlhwLO9HUFIbe9phqBUu0K0Nu1cnWta6emkMUTO7Qla1ElKk8VHeVlLhNbnxdYS3xNPaC4pQRMSpJzZ6UuAk2IFnGh59IMnUKACQw
+     LBquIEXhkoUreCkqOZ7DRRbWkaHaksqVdncaPdyRx+8TuwxiMVSdiSYmUVqGVgNQNfKFmKT/ABAkE0ajPQRFjO00tCjvlyWTdzzAu32iu4jaqlqOUlKVXNieQ4D4wpKXbeMQbeoSpdn9PMs2O2kiWqqi5D5Ugk8GLUHmYQYpa8RRRKEA0QHr/OfaPwjTAqSk5aAG3WGOHSEqPA3ggBUdd/mcS/q3sGOwg2DksMjW+UWPsjKKcXLPJT/6TAQwwuLiLH2UlZphX7gbzV+gMHSWa0Y+ZMg90B20oIxE1LK8RNAfa3uHOMgftbJfGTeqdR7iYyOmUGZ0g0pmytrJUQhSglehNEzPPRfLWLHhttrljI+6boUAUnqDSOb4hL89Ilw+0ZyAyVZk6JXvDy1HrB8M7BxCa7icNOkDF4NdZmHCTxllSfgFZfhG3/Y+/iE0aihbzQYoMvayzeWD0UR9DE3/AFBWkoD+ZSj8A0Jas+cT3+oOvZj+5l4/EbOSRSfMVYbwB/2pEDntFJkH/tcHLQsWmTBmWPMlRB8xFOkTJindRD6BkjpTTrEyZOX7QPLhoY/QSO/r7XGCx/eEbY2viMUp8RMUsaJsgdEinmYBMrziYqJoBXlDHA7BWvemK7tPqT8aQDWeWMnrqttOhmJRhn0rDPAbAKzvltcupFy50i0YXYUtKMyQ+U1KiKkfr5RrjsCQl68cwtUfHT4wDXHGp2Om6BR9ez8eINhMGAnKh0AaJ4Fqktq7OYYqw6Ehixp4lCup1pelGgTALILMSBXg9L/vlBmKXMcnKkgjkodTwhAtAyTOn6ewo0IDiZyEqJQpKTTLVQALAZizqqxBPOBpWIK2UQ6m3lJOaihR3N9ObmNsq3JQnMpsvhfKTqLfsxp+FQjfSipICsxLAUS4A1q5glt1uaUAkE90MoMbEkKJBSQCD5M2jGIsXiQSkTFEqLK0sWYWbixD3NImnlCUhIGcK1syjxAFQxPSIsTsrPUsGASAVAKIVZtGq7PSKK3zswHGtTMS4KFZgc1luDQKDNwub1FesE/hdwMUBt+5PAgU5KZg1Yh2Vgw7KJWwUwsHHhUXNfCaWDQdiEkLID5SUkcHABHI2Vau8nWsOzvETnzPETO7ASlzlAWVKFQoNnpr/RoKyOGF3uSHJDFy46+sRhSUqygOBx8j8yK8o1VOVlVVqgHjwuLVf1jMADU9N5CQCSSHckGwDFz++cCrxCs1j4rEOS7ka8oIJIck8gNCRcgHld4gmThVTgkkMwaxuep/ekL54MLGYXInKbeYFqsGYairt+sbTipai5BrqRQihZvpRoC
+     RPbPlIItmN6sCW4005xJJmlQSVHV2YG1BbyHpCmfeYYWNpSsoAJHB6EUf4mNpi2d1BmcOR6c+nKApmKypSwJUoUGvAU8vnCrbC5iQAVNMIDIdykcVcOkIwzxdliVDkxk20tsoQMy1bpolIuQOAHn+3irY3a0yaGlbiSam6j1Nh0Eaowysys5zK4nhEmElMShuY+sVIlde+5nIu/yLvpNCL04Mg5qk3cwyUh0hQ1+cMMLI0PlHgkDMUNRVU8jGNdyMgLltxfLUYcScY4D31gIYYpLkR4KGFPhoGY/k48BIKnJc+kdE7N4YJlopVe+f81R8GjkktBWpCB7Sgkf5iBHa5axLSuYfChJLdBaKejQZLGUU7lF2/gkTMTNWQkusiv5d36RkKZk6a5LpLl3IBNa1jyPGw5nT4SgzkCIpA3gGd+HGDsXIardesLVj4/OKV9wmWoGGDHkjBqUN1J4PB8rZKxcpA5lzAuxsYJpZR/ipFQTuzEgXI98D5PFx2fsxCqqPkmg89YitDhuMibpGzrYiFGDQPEt+QEESMKg+zqzqi0/9NQkbqQAeH11Ma/hAQQ37ETOHzLKOjqHufcUpkoQAU5Rxs/3MapXmqBrxr58IPn7MCgABq94X4nBqDEAitQDd9YSVPmdun0scVhGGU5L5idRpUQzlpLAG7GgFGiv/AIlaHABuGelIYysSwStyOYtzNP3WNQ8TuBdW3iFysHmUSAN4uS2v6t0pEExJIZgSXrpQtE8vFFYYAu5ry4/SCkIzpJFwHqNKZR6wzCv2iQ7KfdF0rDnKosMwFTxsR0Fo0xeDIVmJCcyQAE7wd2JIoEir0a0NlS1JUQwGYAEcxWIlpBykpNWBZmFBUvYM4pygxWMYMw2HOYkxchKVCZLSAkFyCT0oaMKvG01CFIS6CPapoGcjo4JbTzhnPwgJ1LVrw06/X1gCfspThSHYZswLpACiFJbk1OnKGIPme5DU8XICZYLXDBjViova2p84FmKWpwkboYndNC50IqXDWiRJUgrzqDZmsXLWL+1p84myBalHM4LHK7symCX94U5CGB+O5uMyBDlLPmAS6gBUEaVrQMfo4iITDvLUpXEgMxozngeHWCJkhSAE5gpRcqYqo3hB/NVucQpKAklTb+mgO6DxozisC1oxNCeYDOWpVQaJu7tyroX9YGSlViaquKboCtRd/wBIMxGIAOUBKNWB9rU+Q0bWlonwuCVNyplyyQ9V2FfEcxNqaPGcmbQE8SqjJgUrImqCVEgpFqNc/MecMsHsebOO6ChJuo6AaJH35xZtn9nZcsPMqLVsml2PCFG0+1eUGRhVZlAEKnlIGv8Ahjj+a3WGCoL7nMiu60KPbJNozJGBQyDnnlIuXIGhUbAcExRfxKjP7xZfPc9TGuIKs285c7yiXJPEnWBJrpMaTy0O049tzWnce4/DsM4HoLiAsQAAFAVuIY7GxZmIyGpFrWiTB7EMxSpZ8TrEtIUHKky+8DuRRqXiasHlxPcRKrNcPKMzKUe1b7QRjtnZTuTN4ZTUEMWcgcWNOcQ7BWrKpBAABdCjz8SR8CP83GG2JnK
+     JAUXAs+kFxCj+p46i8Se8qKXpX0GphXiGSsg3AqTwh2la0KzJqNR1o/Rr8oH2ps8TJZUCkTApLSh7aSS4STqA27X5xtaqwx5mAZnvY3AmdiUV3JZ7yzvlIZPJ1Eehi/8AbDGmXJTLTVSiFKGpQDbkSbdIG7C7KGHw5nTA2diHvlHgHUkk+YhPtTFKmTVqXXO+Tkwojo1QeL8orz6dePJ/qdDpq/Ji/wDDCZvhCC+uZn0sbRkMcLlQhKfCwqOBNT8SYyJ8y6UVaMwpUVBaxYO4PHh1hHiZTaUi34zChKlLS+TUAW5jiLuB1HNRj0i7Xu1QeBDUs9Ycj4MMjIldlrKVJULpLjqIs+z9szCy0rIOopfWkV6agaWiAOkuCx4iGugsH3go3D8p1bZG3krOVZyq04H7GLEgAgNeOLYfG5k5FKyK0WQ4PJY0/mHpFm2H2tmSFCVigwPgmXDdbEcx5xO3TuB8wmZSdal5xKSkuHprEKpTkFR50g7DT0zU5kkF+bxrOQ1/KJWUd/EIORrzFePwNKWFr2+8By8OfC6gnU6aRYGeI+6Cyyra84A1b1KE6ghcGBIlJBSgOc1j6H0gvDoYDQEE0rYt8YixMkgbhZhw4W6XiXCqBDJLMNTUOeH1jUXBnnGV5CFJL+HW+tR14xqtJq1i/ozfsRpIBFsulAeJLn5RvMnm9CRpyt+sUDtuI8webhC2Ye09NA4ox5M/nGqScoBIYWLs1OdaOXgqapJzBKwDQZSzu275GgjTvUgBzXUfH9YwkTRnEW4rDyiyVAmlgbVa5t1EA4iYqWO7Cs6cwISQA4em9fqRxMODNQwKlJSNOZZnFXLwLMlGYU93LUGrnWWLs1AKkUfR4zixGBCFir9UTrxS0+CWVLJepJAZr2fxD0Mey8MuYEpSkqL3FBXiTSkPk4PDSmM/ESx+UrSBwZnfyiaZ2pw0sES0qm13RLQw81KYX4QxenA2xxE2daB9P8wbZ/ZkZs05IULAcH+ZgnEbQlYRBK5pUvPmEtADkWys5YXqWEJdo9pps1JyZZQSzsXXqzmwH2hCsBaFFJdT7zmp1ck3eCa1V0onOs6nl5yZJtrtBNxRYnJLJfu0mhLM6j7XS0J1rObc0148R0jzDY5WYyykDQUqD9jE8rDOYByQctI3JJ3CAgLQ/HSIEbPVMdLMQNdeENpGEoMrmm8GNOBhjIwuU38+sIR8NjxAAxKrhJK5S0rAfKXItmHDk/GLfMQVSxMQTUZ3Go8CvMAZT0hfi8K1REmxcQBM7lamlzCcpNkTCGD8lgBJ5hPOGnDnXeaDkzwSKBqDlRoJSnMK31iCdLVLWUEMQW6EUMRd4pJf1hezowD3xC0ihB84edmNkd66pgHcp1PtNUh/dGp8uMabD7OKmtNnfw5V60Kx/wAU8/6wZtzawWhUmUMkpLIIZs7hgAPdqOsU11iv3t+g+ZXTSWM22ztQzVKEv+7lOABda2oejO36wsEpKwNUEBRILUbMg+ZYecRI3JfdqPgTlUbbwAI6hiAOkSIllEpJIZvEHAGR1ZanhmJAvVtIx2LtyM6IAUYEWYhOJClCXM3XJD1vU6cSYyGeWYay2KDa9vSMjOUKVeasoIVJLoq8sXA/K7UBd0aaNaE+POZyhh+VmD+10PH4xYZ2EKlkMJc01INlcy1x
+     +YWo7WhdiMOAppg7tdBqUqe1dRTkQYZgjcaJWVKvTqIhXLeH+K2YhTVyq9Qeh1Hk/KFS5BSa+otDFcTeOYuWiJ8LjlIGRSRMlm6FW6pPsnpEq0Pp8IFXKhofPeKasjtLd2d2mJZfDrKke1IWd4cchPyt0joOAxKJqQpD9CGIOoINjHDCCCDY6EX8jFz7G7SmZlqKitSQARxTo/O9Yn6hAFLzUBY8R3nRyiPZUuvWPNnYtE1BUhQIBYsXIPA8DEyy14RgAZmZOcQUSglXFy3KNCEFTtXU6tQmNMQo1aF2K2hLlo7xasoHEt6cT0iX1fdxUSpQcZJjFQSXU6gTcjlYsaQuxe0MqCdQxzOwFrxWsb21Uo5cKguz5l2HRLufNoq2NnTpqgqbMUpi+WgSKv4RSKhQzfWcf3Jn62us/MvW0O0YKFLykBI3l8dB52FIq2J7TYhb92BLSdbmtNaClIixk9a5Yllsr5iwZzUB+LOY8wiXQzVFPtBoqqORGTILuvdtJoTfB47EklRnzMwDUytlNbZWvEs3ErWHXMmKOuZaiPR214R5hJLLBNlBvtBC5AFo89u8SI2ux2Z7h1OgKCUhQucodxHgxBcjMplDQtXpaNMKpl5dFW6wScI7vSEnRg5gqcyVOC1GLajnB2HwajVCVKfgCX5dYMwsuXlB7sFViS5qL0doMw1BlFAC4A5/b7R5pmZX9r7PyZJoG6TlUeD+EnofnFg2StAlAqloUtyCSlyD5nKdC7QSuQJktaF1Cgb84SbFzAKQouEuAeOUsPNvlBK2V+4h5yI8wyxlyhQDFiTc6uSL3jxC6M+sCpa8TyS53QSeAgCAdGAMnU9mF7wBOwefMlG8piQBd7g+sOpey50wgCUQOJMOsJsCThx3uImAM9HYDiOfSHVVPntr7xy1Eyuoz4opVLSVTCE5wAaLyjMK6A62ixYbY0nDATcUc67plJGavT2j8B8Y9xG3wD3eFlhLkgrIZmBLtpQXPpCXZ6VLdc0lU0ITnmKPvOSALADlDSUQkjZ/iV19NvLRvjtrLnEh8qAEnKOBdnOpp+7lYlBTMQtqKSoMfeSSUkjoFfCDJeHG8ogsruwHJqyjU8t62rR7iMLV3LgFWY6FPDmXYCEsWZsm
+     VjAGBFjEzFE1AAChdJLHKD6l/LhEGIxMxeUICiCApRcAhKtADqTSD5iE5JZBUy3Sze3mKSSBrT5RAJZRLA3SUDMSKA5SVAPwAcUpeC46wZ7MKlSSw9nk9vSMiOdKmEumYgJIBAJqAQDWsZHvTX4mcjEuzdqIxSAtDnKXKFUWnQsoMkjoQY1xiFFJKT3qKjKsAKD3D2ULXa1zGRkPs0TGp4iOWgsSzpNCkmzedxEU/C0pvJINNfU38/WMjIQI+AJlBt0uDx5X/dogMsF2o14yMho7me8SFWHj0SylBKSUmxYs4OlNIyMgwxgcRuN+yG3FYWeKky5hCVjqQAocx8o6hjsUEhyaAPbSMjIn6vsItBuVE9rZCllAWpL0CshIJ+fqIAxnZdc3fTP706d4CPRgw9BGRkOSla/pgXe4bgKthzpJdSGFahST9X+EDrWCCL6WjIyAsAzOTagHaT4fBqmMEpcmlxr1h1J7PKlTUSZ24ZgSrdZTJJynk9RGRkeRAV38xaqIwxnZshWWXvJ94li4vTSsIpslzTg8ZGQPVIq4xMcCQGQXLUaohkllAHiHjIyJ133i5NITcefnaCUJqDGRkN4iEIUqYEpdnP3LD4/KN8J2fmrAZIbiVAX6O/nHkZB1IpO5WiDjG+G7L+/MAHBIPzP2g/8AF4XDDKBUAPul60FYyMi301QZAjq0GYtxvaiYoNKAQCwBNTVgOQvzhKUKnupSs1VJKl1NHDAaVaMjIhssYnZliqB2h0uQkZxUJC+JcqIzlzq+ZNLBonwclmOViojdplALBz7ygAW6xkZ
+     AjvPQlW8QHLpUlRNbJKTaNsQoZVKS7Opg+oJdze78oyMg56QysqBluokkDg9aPqXL11iGRVMtRoEpKS9XahPR3prGRkaJ6bHDjgfh/wC0ZGRkH
+     Bn/2Q==" id="img2"></div>
+    <div class="col">
+   <p>1) Masala dosa
+        Arguably South India’s most renowned culinary export, masala dosas are famous the world over. A sort of Indian pancake, dosas are made from a thin batter consisting of rice, flour and lentils. Making dosas is no easy task, with the batter mixture having to soak in water for at least 24 hours before it can be shaped. Once ready, the batter is ladled onto a hot tava (griddle pan) and shaped in a similar way to how the French would shape a crepe. Traditionally, dosas are served folded in half and stuffed with potatoes. Accompaniments like hot sambar give the dish a spicy edge, and whatever you stuff them with, dosas are sure to provide a tasty yet satisfying meal.">
+        </p></li></div></div>
+
+     <div class="row">
+       <li>
+        <a href="chaat">CHAAT</a></div>
+        <div class="row">
+          <div class="col">
+        <p>Synonymous with Delhi street food vendors, chaat is one of India’s most delicious savoury snacks. The name derives from three Hindi words meaning ‘a delicacy,’ ‘licking one’s fingers’ and ‘to devour with relish’ and this dish truly does live up to its heritage. Although there’s now a plethora of different varieties, the original chaat is a wonderful combination of diced potato pieces, crispy fried bread and chickpeas garnished with fresh coriander leaves, yoghurt and dried ginger and tamarind sauce. Make like a local and seek out a local dhaba, where the city’s specialist chaat variety will be available at nearly all times of day.</p>
+          </div>
+           <div class="col">
+        <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/249711/Delhi-street-food-2-552x310-cc.jpg" id="img3">
+    </li></div></div>
+
+    <div class="row">
+    <li>
+        <a href="DAL MAKHANI"></a></div>
+        <div class="row">
+          <div class="col">
+          <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316520/iStock-530506394-552x310-cc.jpg" id="img4">
+  
+       </div>
+          <div class="col">
+            <p>3) Dal makhani
+              Most foodies will have heard of or tasted dal, but there’s nothing quite like tasting the original dish in the country where it originated from. Dal is the Hindi word for lentils, and this soup-like delicacy is made by stewing small black lentils for hours on end. Whilst there are  many different varieties of this lentil dish, dal makhani is in a league of its own. It’s considered the best of the best, and is reserved for big events like wedding celebrations. With makhani meaning ‘buttery’ in Hindi, there’s no prizes for guessing how rich and creamy this Indian classic tastes. Head to Punjab, in India’s north, to taste the real deal. </p>
+            
+           </li></div></div>
+
+  <div class="row">
+    <li>
+        <a href="vada pav">VADA PAV</a></div>
+        <div class="row">
+          <div class="col">
+        <p>4) Vada pav
+            Originating in the traditionally vegetarian state of Maharashtra, vada pav is as close as Indian cuisine gets to veggie burgers. One for carb lovers, vada pav consists of a deep fried potato dumpling placed neatly inside a small bun. The finger food delicacy is generally accompanied by a couple of chutneys and a green chilli, to appeal to the spice loving palettes of Indians up and down the country. Also called a Bombay burger, these mini potato buns can be found in street food stalls across the city of Mumbai. </p>
+          </div>
+          <div class="col">
+          <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316521/iStock-1157170530-552x310-cc.jpg" id="img5">
+    </li></div></div>
+
+    <div class="row">
+    <li>
+        <a href="stuffed paratha">STUFFED PARATHA</a></div>
+        <div class="row">
+          <div class="col">
+            <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316522/iStock-1084019098-552x310-cc.jpg" id="img6">
+   
+      </div>
+            <div class="col">
+              <p>5) Stuffed paratha
+                Punjab’s foodie heritage doesn’t stop at dal makhani. Often eaten at the start of the day, stuffed parathas are seen as the breakfast of champions in northern India. The word paratha derives from the Sanskrit word atta meaning ‘layers of cooked dough,’ and this dish lives up to its moniker. After leaving the dough (or atta) to rest overnight, parathas are made by cooking the dough on a tava before shallow frying. The most common way to eat parathas is to stuff them with a filling of your choosing. Parathas can be stuffed with any number of fillings, but some of our favourites are aloo paratha (stuffed with potatoes) and methi paratha (stuffed with fenugreek). 
+                
+                </p>
+       </li></div></div>
+
+    <div class="row">
+    <li>
+        <a href="dhokla">DHOKLA</a></div>
+        <div class="row">
+          <div class="col">
+        <p>6) Dhokla
+            Hailed as the regional dish of northwest India, the Gujarati delicacy dhokla is a savoury vegetarian snack made of rice and split chickpeas. It’s tastier than it sounds – Gujaratis eat it for breakfast or lunch, and sometimes even as a snack or side dish. Another dish that takes hours of preparation, dhokla involves soaking the rice and split chickpeas in equal quantities overnight. Then, chilli, coriander, ginger and baking soda are added to add spice to the dish, and help it rise into delicious bite size morsels. Usually served alongside deep fried chilli and  coriander chutney, this Gujarati delicacy is wonderfully moreish. 
+            
+             </p></div>
+             <div class="col">
+        <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316523/iStock-887144836-552x310-cc.jpg" id="img7">
+    </li></div></div>
+
+    <div class="row">
+    <li>
+        <a href="barfi">BARFI</a></div>
+        <div class="row">
+          <div class="col">
+            <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316524/iStock-1156874847-552x310-cc.jpg" id="img8">
+          </div>
+        <div class="col">
+          <p>7) Barfi
+            We’ve cheated a little bit here, as the term barfi can be used to describe any number of Indian sweets. The most traditional type though is milk barfi. Predictably, these milk-based sweets are made from milk powder, condensed milk, ghee and cardamom powder. Barfi is not going to help anyone reach their health-conscious goals, but these indulgent fragrant desserts are sure to bring a smile to the face of anyone who tries them. These sweets are traditionally gifted as good luck offerings at occasions like wedding ceremonies, but there’s nothing to say you can’t pop down to the sweet shop to buy one to accompany your afternoon chai.</p>
+      
+             </li></div></div>
+
+
+    <div class="row">
+    <li>
+        <a href="pani puri">PANI PURI</a></div>
+        <div class="row">
+          <div class="col">
+        <p>8) Pani puri
+            Pani puri, or gol guppa,  are thought to originate from the northern state of Bihar. A perfect streetside snack, pani puri are hollow deep fried balls made of semolina or wheat. They’re served alongside spicy potatoes, chickpeas and a spicy tamarind water. Eating pani puri is an experience in itself, as you traditionally crack open the top of the deep fried shell with a spoon before filling it with the delicious accompaniments. Most Indians eat each pani puri with one swift bite, to save any of the filling spilling out of the delicate case. This infamous street snack unites most of the country – everyone from local college students to city businessmen can be found devouring them.</p>
+          </div>
+          <div class="col">
+          <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316525/iStock-1177589252-552x310-cc.jpg" id="img9">
+    </li></div></div>
+
+
+    <div class="row">
+    <li>
+        <a href="idli">IDLI</a></div>
+        <div class="row">
+          <div class="col">
+            <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316526/iStock-1024549286-552x310-cc.jpg" id="img10">
+   
+     </div>
+            <div class="col">
+              <p>9) Idli
+                Popular across South India, idli are often thought of as the breakfast versions of dosa. Eaten at the start of the day, idli are a type of light savoury rice cake. Made by steaming a batter consisting of fermented black lentils and rice, these rice cakes are dangerously easy to eat. Since idli are pretty bland on their own, these mini pancake-like breakfast staples are served alongside sambar, coconut based chutneys, or spicy fish curries. Over the years, idli has evolved into many different varieties, so you’re sure to find one that satisfies your taste buds. 
+                
+                </p>
+       </li></div></div>
+
+
+    <div class="row">
+    <li>
+        <a href="masala chai">MASALA CHAI</a></div>
+        <div class="row">
+          <div class="col">
+        <p>10) Masala chai
+            India’s most famous export, masala chai can be found being sold by everywhere from high end restaurants to chaiwallas at train stations. While there’s many different diluted versions of this classic Indian tea around the globe, the real deal can only be found in India. Authentic masala chai is made by brewing black tea on the stove with a mixture of aromatic spices and herbs. Traditionally, the spices used are green cardamom pods, cinnamon sticks, ground cloves and black pepper, creating a wonderful aromatic cup of tea. There’s nothing quite like sipping a hot cup of authentic masala chai first thing in the morning! </p>
+          </div>
+          <div class="col">
+          <img src="https://www.jacadatravel.com/wp-content/uploads/fly-images/316527/iStock-1142857499-552x310-cc.jpg" id="img11">
+    </li>
+  </div></div>
+    
+    
+    <li class="nav-item"> <a href="temples.html" class="nav-link">INDIAN TEMPLES</a></li>
+        <li class="nav-item"> <a href="login.html" class="nav-link">LOG IN</a> </li>
+            <li class="nav-item">  <a href="about.html" class="nav-link">ABOUT</a> </li>
+                <li class="nav-item">  <a href="jewelery.html" class="nav-link">INDIAN JEWALLERY</a> </li>
+                    <li class="nav-item">  <a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+                        <li class="nav-item">  <a href="dance.html" class="nav-link">INDIAN DANCES</a> </li>
+                            <li class="nav-item">   <a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+                                <li class="nav-item">  <a href="national symbols.html" class="nav-link">NATIONAL SYMBOLS</a> </li>
+                                    <li class="nav-item">  <a href="religions.html" class="nav-link">INDIAN RELIGIONS</a> </li>
+                                        <li class="nav-item"><a href="weddings.html" class="nav-link">INDIAN WEDDINGS</a> </li>
+                                            <li class="nav-item"> <a href="festival.html" class="nav-link">INDIAN FESTIVALS</a></li>
+                                            <li class="nav-item"> <a href="agriculture.html" class="nav-link">AGRICULTURE</a></li>
+                                           </ul>
+ 
+
+     </div>
+
+
+
+<!--
+                                           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-indicators">
+                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/03/shutterstock_465558758-illustration-of-India-background-showing-its-culture-and-diversity-with-monument-dance-and-festival.jpg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                  <h5>First slide label</h5>
+                                                  <p>Some representative placeholder content for the first slide.</p>
+                                                </div>
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbVeYv1rBinRlHMpQfegvZsEk-U9R23vjRvg&usqp=CAU" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                  <h5>Second slide label</h5>
+                                                  <p>Some representative placeholder content for the second slide.</p>
+                                                </div>
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw7lwqwifHTUo7o55KAPw7oMuiENtXOyYllg&usqp=CAU" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                  <h5>Third slide label</h5>
+                                                  <p>Some representative placeholder content for the third slide.</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Next</span>
+                                    
+                                            </button>
+                                    
+                                    
+                                        -->
+                                    
+                                    <div class="footer">
+                                        <footer class="bg-dark text-white pt--5 pd-4">
+                                          <div class="container text-center text-md-left">
+                                              <div class="row text-center text-md-left">
+                                                  <div class="col=md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                  <h5 class="text-uppercase md-4 font-weight-bold text-warning">indian culturer</h5>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam facilis, quibusdam eligendi sint distinctio nobis eveniet optio, unde pariatur magni. Quas vero esse, harum hic quaerat dignissimos veritatis eveniet!</p>
+                                                  </div>
+                                  
+                                                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                      <h5 class="text-uppercase md-4 font-weight-bold text-warning">topics</h5>
+                                                      <p>
+                                                          <a href="about.html" class="text-white" style="text-decoration:none;">INDIAN ABOUT</a>
+                                               
+                                                          <a href="religions.html" class="text-white" style="text-decoration:none;">INDIAN RELIGIONS</a>
+                                                    
+                                                          <a href="agriculture.html" class="text-white" style="text-decoration:none;">INDIAN AGRICULTURE</a>
+                                                    
+                                                          <a href="national symbols.html" class="text-white" style="text-decoration:none;">INDIAN NATIONAL SYMBOLS</a>
+                                                     
+                                                          <a href="monuments.html" class="text-white" style="text-decoration:none;">INDIAN MONUMENTS</a>
+                                                      </p>
+                                                  </div>
+                                                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                      <h5 class="text-uppercase md-4 font-weight-bold text-warning">IMPORTENT LINKS</h5>
+                                                      <p>
+                                                          <a href="backbone.html" class="text-white" style="text-decoration:none;">INDIAN BACKBONE</a>
+                                                          <a href="national festivals.html" class="text-white" style="text-decoration:none;">NATIONAL FESTIVALS</a>
+                                                          <a href="types of festivals.html" class="text-white" style="text-decoration:none;">TYPES OF FESTIVALS</a>
+                                                          <a href="weddings.html" class="text-white" style="text-decoration:none;">INDIAN WEDDINGS</a>
+                                                          <a href="dance.html" class="text-white" style="text-decoration:none;">INDIAN DANCES</a>
+                                                          <a href="temples.html" class="text-white" style="text-decoration:none;">INDIAN TEMPLES</a>
+                                                          <a href="jewelery.html" class="text-white" style="text-decoration:none;">INDIAN JEWALERY</a>
+                                                          <a href="languages.html" class="text-white" style="text-decoration:none;">INDIAN LANGUAGES</a></p>
+                                                      </div>
+                                  
+                                                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                              <h5 class="text-uppercase md-4 font-weight-bold text-warning">CONTACTE</h5>
+                                                      <i class="fa fa-home"></i> Hyderabad,50001
+                                                      <i class="fa fa-envelope"></i>archu1431@gamil.com
+                                                        <i class="fa fa-phone"></i>+91-9876543210<br>
+                                                            <i class="fa fa-print"></i>+01_225699300
+                                                      </div>
+                                  
+                                                      </div>
+                                                      <hr class="mb-4">
+                                  
+                                  
+                                          
+                                          <div class="row align-items-center">
+                                              <div class="col-md-7 col-lg-8">
+                                                  <p>copyright @1901 All rights rerserved by:
+                                                      <a href="#" style="text-decoration:none;">
+                                                      <strong class="text-warning">The providers</strong></a>
+                                                  </p>
+                                              </div>
+                                              <div class="col-md-5 col-lg-4">
+                                                  <div class="text-center text-md-right">
+                                                    <!--  <ul class="list-unstyled list-inline">
+                                                          <li class="list-inline-item">
+                                                          
+                                                              <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                              <i class="fa fa-facebook"></i></a>
+                                                          </li>
+                                                          <li class="list-inline-item">
+                                                              <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                              <i class="fa fa-twitter"></i></a>
+                                                          </li>
+                                                          <li class="list-inline-item">
+                                                              <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                              <i class="fab fa-google-plus"></i></a>
+                                                          </li>
+                                                          <li class="list-inline-item">
+                                                              <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                              <i class="fa fa-linkedin"></i></a>
+                                                          </li>
+                                                          <li class="list-inline-item">
+                                                              <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                              <i class="fa fa-youtube"></i></a>
+                                                          </li>
+                                  
+                                  
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </footer>-->
+                                      <ul class="socialIcons">
+                                          <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+                                          <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+                                          <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+                                           <li class="pinterest"><a href=""><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
+                                          <li class="steam"><a href=""><i class="fa fa-fw fa-steam"></i>Steam</a></li>
+                                          <li class="youtube"><a href=""><i class="fa fa-fw fa-youtube"></i>Youtube</a></li>
+                                          <li class="Telegram"><a href=""><i class="fa fa-fw fa-telegram"></i>Telegram</a></li>
+                                          <li class="google-plus"><a href=""><i class="fa fa-fw fa-google-plus"></i>Google-plus</a></li>
+                                          <li class="Linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+                                    
+                                      </ul> 
+                                          
+                                  </div></div></div></footer>
+                                     
+                                    </div>
+
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+ <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+</body>
+</html>

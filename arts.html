@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle,min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <!-- Font Awesome CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <style>
+      .footer{
+      border:3px  deeppink solid;
+     }
+    
+              ul.socialIcons {
+        padding: 0;
+        text-align:center;
+      }
+      
+      .socialIcons li {
+        background-color: yellow;
+        list-style: none;
+        display: inline-block;
+        margin: 8px;
+        border-radius: 4em;
+        overflow: hidden;
+      }
+      
+      .socialIcons li a {
+        display: block;
+        padding: 0.5em;
+        min-width: 2.28571429em;
+        max-width: 2.28571429em;
+        height: 2.28571429em;
+        white-space: nowrap;
+        line-height: 1em; /*it's working only when you write text with icon*/
+        transition: 0.1s;
+        text-decoration: none;
+        font-family: arial;
+        color: #fff;
+      }
+      
+      .socialIcons li i {
+        margin-right: 0.5em;
+      }
+      
+      .socialIcons li:hover a {
+        max-width: 200px;
+        padding-right: 1em;
+      }
+      
+      .socialIcons .facebook {
+        background-color: #3b5998;
+        box-shadow: 0 0 16px #3b5998;
+      }
+      
+      .socialIcons .twitter {
+        background-color: #00aced;
+        box-shadow: 0 0 16px #00aced;
+      }
+      
+      .socialIcons .instagram {
+        background-color: hsl(344, 88%, 50%);
+        box-shadow: 0 0 16px hsl(344, 88%, 50%);
+      }
+      
+      .socialIcons .pinterest {
+        background-color: #c92228;
+        box-shadow: 0 0 16px #c92228;
+      }
+      
+      .socialIcons .steam {
+        background-color: #666666;
+        box-shadow: 0 0 16px #666666;
+      }
+    
+      .socialIcons .youtube {
+        background-color: #ee1935;
+        box-shadow: 0 0 16px #ee1935;
+      }
+    
+      .socialIcons .Telegram {
+        background-color: #2b92f3;
+        box-shadow: 0 0 16px #2b92f3 ;
+      }
+    
+      .socialIcons .googleplus {
+        background-color: #1927ee;
+        box-shadow: 0 0 16px #1927ee;
+      }
+    
+      .socialIcons .Linkedin {
+        background-color: #5919ee;
+        box-shadow: 0 0 16px #5919ee;
+      }
+      #img1{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img2{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img3{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img4{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img5{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img6{
+        width:100%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img7{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img8{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+          p{
+        color: aliceblue;
+       }
+       .body{
+    background-image: url(https://i.pinimg.com/600x315/79/d2/aa/79d2aacc757d8958c17c4faf55e4a688.jpg);
+  background-size: cover;
+  }
+    </style>
+</head>
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.pinimg.com/736x/55/c8/e1/55c8e1c158637d70b33208352634da97.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          
+            <img src="https://www.eoibudapest.gov.in/ascc/docs/7b7b7673204eaac8a7b2fbf2811f6ca623240072.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.toiimg.com/photo/msid-82403294/82403294.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          
+            <img src="https://i0.wp.com/timeskuwait.com/news/wp-content/uploads/2021/08/Spices.jpg?resize=696%2C462&ssl=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA spice bowl</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          
+            <img src="https://www.ciiblog.in/wp-content/uploads/2019/03/Urban-India5.jpg" class="d-block w-100" height="100%" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA ARTS</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+          
+            <img src="https://www.tusktravel.com/blog/wp-content/uploads/2021/04/Top-30-Most-Famous-Festivals-of-India.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA FESTIVALS</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+          
+            <img src="https://www.spinonholidays.com/wp-content/uploads/2022/01/historical-monuments-of-india.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA MONUMENTS</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+          
+            <img src="https://www.oyorooms.com/blog/wp-content/uploads/2018/02/fe.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA WEDDING</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+          
+            <img src="http://www.general9ledge.com/wp-content/uploads/2020/07/National-Symbols-of-India.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA NATIONAL SYMBOLS</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+          
+            <img src="https://thesiliconreview.net/story_image_upload/article/thesiliconreview-technology-lifts-agricultural-farms-indian.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The INDIA AGRICULTURE FARMS</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+    
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    
+    
+    
+      <div class="body">
+        <div class="nav nav-tabs  nav-justified  fixed-top" role="tablist"> 
+           <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+             
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="about.html" id="m1" data-bs-toggle="dropdown">ABOUT INDIA</a>
+        <img src="">
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+    <div class="dropdown-menu">
+    <li class="dropdown-item"><a href="history.html" class="dropdown-item">HISTOTY OF INDIA</a></li>
+        <li class="dropdown-item active"> <a href="arts.html" class="dropdown-item"><button class="btn btn-danger">INDIAN ARTS</button></a></li>
+            <li class="dropdown-item"><a href="weddings.html" class="dropdown-item">INDIAN WEDDING</a></li>
+                <li class="dropdown-item"><a href="jewelery.html" class="dropdown-item">INDIAN JEWALLERY</a></li> 
+                    <li class="dropdown-item"> <a href="temples.html" class="dropdown-item">INDIAN TEMPLES</a></li>
+                    <li class="dropdown-item active"> <a href="agriculture.html" class="dropdown-item">AGRICULTURE</a></li>
+    
+                </div>
+    </li>
+    
+    
+    <li class="nav-item"> <a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+      <li class="nav-item"><a href="dance.html" class="nav-link">INDIAN DANCES</a></li> 
+          <li class="nav-item"><a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+               <li class="nav-item"> <a href="national symbols.html" class="nav-link">NATIONAL SYMBOLS</a> </li>
+                      <li class="nav-item"><a href="religions.html" class="nav-link">INDIAN RELIGIONS</a> </li>
+                      <li class="nav-item"><a href="r new style.html" class="nav-link">INDIAN CULTURE</button></a></li>
+                            </ul>
+                          <div class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="" id="m1" data-bs-toggle="dropdown">INDIAN FESTIVALS</a>
+                              <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                  <a class="dropdown-item"  href="bhonallu.html">BHONALLU</a>
+                                 
+                                </li>
+                                <li class="dropdown-item">
+                                  <a class="dropdown-item" href="bathukamma.html">BATHUKAMMA</a>
+                                 
+                                </li>
+                                <li class="dropdown-item">
+                                  <a class="dropdown-item" href="ganesh.html">GANESH CHAVITHI  </a>
+                                 
+                                </li>
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="raksha bandhan.html">RAKSHA Bandhan</a>
+    
+                                </li>
+                              
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="diwali.html">DIWALI</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="sankranthi.html">SANKRANTHI</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="ugadi.html">UGADI</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="shivarathri.html">SHIVARATHRI</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="teej.html">TEEJ</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="chistamas.html">CHRISTAMAS</a>
+    
+                                </li>
+                                
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="ramjan.html">RAMJAN</a>
+    
+                                </li>
+                                <li class="dropdown-item" ><a  class="dropdown-item" href="muharram.html">MUHARRAM</a>
+    
+                                </li>
+                           
+    
+                                
+                              </ul>
+                            </div>
+                            <li class="nav-item"><a href="login.html" class="nav-link"><button class="btn btn-warning">LOG IN</button></a> </li>
+                                      </ul>
+                                      <div class="abc">
+                                        <form class="form-inline my-2 my-lg-0">
+                                         
+                                          <h6><input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search"><i class="fa fa-search" ></i></h6> 
+                                          <button class="btn btn-success" type="search">search</button>
+                                        </form>
+                                        </div>
+    </div>
+        <!-- Closing of Navbar -->
+        <ul class="nav">
+          <div class="row">
+        <li class="nav-item"> 
+          <a href="arts.html" class="nav-link">INDIAN ARTS</a></div>
+          <div class="row">
+            <div class="col">
+        <p>Indian art consists of a variety of art forms, including painting, sculpture, pottery, and textile arts such as woven silk. Geographically, it spans the entire Indian subcontinent, including what is now India, Pakistan, Bangladesh, Sri Lanka, Nepal, and at times eastern Afghanistan. A strong sense of design is characteristic of Indian art and can be observed in its modern and traditional forms.
+
+            This Blog Includes:
+            Folk and Tribal Art.
+            Madhubani Paintings.
+            Pattachitra.
+            Mysore Painting.
+            Tanjore Paintings.
+            Rajput Painting.
+            Warli Painting.
+            Gond Painting.</p></div>
+          <div class="col">
+        <img src="https://cdn.shopify.com/s/files/1/0608/8161/products/lightsintownraw_1024x1024.jpg?v=1536900683"  id="img1">  </li></div></div>
+        <div class="row">
+        <li class="nav-item">
+          <a href="Madhubani paintings.html" class="nav-link">MADUBANI PAINTINGS</a></div>
+          <div class="row">
+            <div class="col">
+              <img src="data:image/jpeg;base64,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
+              
+              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
+              
+              Ru8j2k5TToamIzTlddPj7T2dFYWYBgeR1/OhGL4EnuMyeXtL8j+howKQwqrU1v3E0U6q2o/SxErE+BlTcZx95d/iu9Re8F7X16HQ/I1bHWh/FeGLKtjo3
+              JuYPr0rFd01CMpHul604IVxAhNeq9N4TClWMUjMrn2D7St5UnGKYmyuLX2I2NKHqZW2+Z0Vd6WDcJKDmuDg76VFSbob0oSA1TBHeGyD2koYZSbg2I2YaM
+              PQii+C7T4uHQS94PuyjN8mFiPrVfD0oOanJkFAZfuHfaGh0ngZPxRnvF+I0YfWpeK46cQMsBZYD7UmqtJ+FL6qvVvgOtUPg3DzO5B0jX2z16KD1O58qtu
+              JxAjS4XoqKOZ2AH0pjpdMG+thOe6nrijejUeT3nYubLlihADkaWHhjXXxH9BzNPYSBYlyrtqSeZPNmPWmsFDkBLauxu56noPwjYelIxA71u79xdZD15hP
+              jz8qY7cDP7Tni+47c8DufeO8E45FC8uMmjkKooELrYjKC3eArvlk0GaxGg2qg9qe0kuKe7u5iVn7pGse7Ricq3A1sLDntVz7TyHuGjQXeTwIo536egrN8
+              Xh3jYpIpVlsCD6Vg1K7WzH/TrA9fbHt+kYUVp/2Z4CWTh+LETZGeQKp21WNSdfjas1VLnz2AHM9P0r6E7D8EOFwcMJAD5c0n8bm5+Wg+FYrD9MY7tpBkT
+              7O+CYjDRyCcjxMCqXzZdCGN/PT5edWwaU3GhpUjBQWYgAC5JNgB1JrKBPMxY5kHg3ZzDYeV5YYsrve5zE2BNyFvsL1RvtG7VnEOMJhyDHmAZv+bID/oW1
+              z1t5atds+3bYgtBhiVg2aQaPLbfKd1j5dSKZ7LcFw7RrOMQBIQVyspCpYkNa250Fj0rTSm5wIe5G01B1DjnwD7+8ewmHWJAg2UanrvmJ9daqfD5fANNDc
+              gdASbVae1CLHh5bTx5iAAL6sG0OUcyKqEc+mlrUbqbKQqKO0j/S9Vv3lznviHMN7K+g/KpIFeV1PB2nB2/iM9ArxhXV1XEHEMtNla8rqJCL2g/icQOUEa
+              l1seY8XL6/OoHa72FP4hbyuK8rqTav/kCdR03nTGVu9OJjGG+tdXUK0Aiaa3YHvJsU2anS5tpvp9Tava6sWORGRJ9M/pLzwzAiGNY15bnqx1Jr1FzyFjt
+              H4QPxFQWb5Gwrq6n6jCrOCYk2OTHcU+VC3Tb1vb9aXhsPkULe5vqercz8a6uq/mAX/aP6xvCRZ2Mp3F0QfdAaxPqT9AKoXaRTJiJX0Fmy2/hFv0rq6ser
+              /CI86Xza3wIb+yjDQNi806s7IR3agApn5M1zy5aGtzy11dSuyOGmYdpe3OKw/EHXP+5icAxrazrpe5te9CO0va+bG2B/dw7rEux85D7x8thXV1CPaPNJU
+              htXI8CBZmsPU2/Srlg8KI0WMbKAPjzNdXVu6WMlok/1i7CxEB4xKvxyYvM19o7IB6gFj8bj5UQ7K9iZOICV0lWPu2Cm4JLEi99K6urPfze0aaYen0yvbx
+              2n/9k="  id="img2">  </div>
+              <div class="col">
+              <p>Madhubani paintings mostly depict people and their association with nature and scenes and deities from the 
+                ancient epics. Natural objects like the sun, the moon, and religious plants like tulsi are also widely painted, along with scenes from the royal court and social events like weddings.</p>
+           
+          
+        
+            
+        
+           </li></div></div>
+      
+        <div class="row">
+        <li class="nav-item">
+          <a href="cloth-picture/painting.html" class="nav-link">CLOTH PAINTINGS</a></div>
+          <div class="row">
+            <div class="col">
+          <p>cloth-picture/painting Pattachitra, meaning 'cloth-picture/painting' in Sanskrit, is a generalised
+             term used to describe a style and format of painting with origins in Odissa (now Odisha) and West Bengal.</p></div>
+            <div class="col">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxuU4HsZ9yubF0C_Z_Efqz2U2weHZCzjDE8A&usqp=CAU" id="img3">
+        </li></div></div>
+      
+        <div class="row">
+        <li class="nav-item">
+          <a href="Mysore paintings.html" class="nav-link">MYSORE PAINTINGS</a></div>
+          <div class="row">
+          <div class="col">
+          <img src="https://images.moneycontrol.com/static-mcnews/2022/08/Screenshot_20220730_172421-1-372x435.jpg" id="img4"></div>
+          <div class="col">
+            <p>Mysore paintings are an important form of classical South Indian painting that had its origins in and around the town of Mysore in the state of Karnataka. Under the patronage of erstwhile
+                 rulers of Mysore, this form of painting became a sign of aristocracy in the late 13th century.</p>
+        </li></div></div>
+
+        <div class="row">
+        <li class="nav-item">
+          <a href="Tanjore painting.html " class="nav-link">TANJORE PAINTINGS</a></div>
+          <div class="row">
+              <div class="col">
+                <p>Every genuine Tanjore painting comes with a certificate. This certificate needs to be provided along with the painting. It certifies that the artist has used real gold and stones,
+                     and the artwork is identified correctly.</p>
+              </div>
+                <div class="col">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvqwJor-Q05l1crH0K6QXMwJEsMyTK6i3-FA&usqp=CAU" id="img5">
+        </li></div></div>
+
+        <div class="row">
+            <li class="nav-item">
+              <a href="Rajput painting.html " class="nav-link">RAJPUT PAINTINGS</a></div>
+              <div class="row">
+                  <div class="col">
+       <img src="https://www.incrediblesnaps.com/wp-content/uploads/2018/01/8-queen-princess-rajasthani-rajput-painting-gopalprasad-620x330.jpg" id="img6">
+                </div>
+                  <div class="col">
+                  <p>According to the Rajput painting information, the origin of Rajput painting images can be traced back to the 16th century. After Delhi was captured by Emperor Akbar, many artisans
+                         were brought from other Indian regions. To present their skills in painting and designing for Mughal Emperor's court</p>
+                       
+            </li></div></div>
+
+            <div class="row">
+              <li class="nav-item">
+                <a href="Warli  paintings.html" class="nav-link">WARLI PAINTINGS</a></div>
+                <div class="row">
+                    <div class="col">
+                      <p>Warli painting is a style of tribal art mostly created by the tribal people from the North Sahyadri Range in Maharashtra, India. This range encompasses cities such as Dahanu, Talasari,
+                        Jawhar, Palghar, Mokhada, and Vikramgad of Palghar district</p>
+                    </div>
+                    <div class="col">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzAH4nnLsOCHg_N8HcwpPZrBhgYaBVBjDog&usqp=CAU" id="img7">
+                  
+                        </li></div>  </div>
+                      
+
+        
+                                      
+                <div class="row">
+                    <li class="nav-item">
+                      <a href="gond paintings.html" class="nav-link">GOND PAINTINGS</a></div>
+                      <div class="row">
+                          <div class="col">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbu80JddXQS1opVgFlJWD2IVNq87maMvy8g&usqp=CAU" id="img8">
+                          </div>
+                          <div class="col">
+                            <p>state of Madhya Pradesh Predominantly from the state of Madhya Pradesh, Gonds can also be found in pockets of Andhra Pradesh, Maharashtra, Chhattisgarh, and Odisha. Encapsulating the essence of tribal art in India, the Gonds are renowned for
+                                 their beautiful paintings, which are characterized by vibrant hues and intriguing patterns</p>
+                            </li></div>  </div>
+                            
+          <li class="nav-item"> <a href="temples.html" class="nav-link">INDIAN TEMPLES</a></li>
+            <li class="nav-item"><a href="login.html" class="nav-link">LOG IN</a> </li>
+              <li class="nav-item"> <a href="about.html" class="nav-link">ABOUT</a> </li>
+                <li class="nav-item"> <a href="jewelery.html" class="nav-link">INDIAN JEWALLERY</a> </li>
+                  <li class="nav-item"><a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+                    <li class="nav-item"><a href="dance.html" class="nav-link">INDIAN DANCES</a> </li>
+                      <li class="nav-item"><a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+                        <li class="nav-item"><a href="food.html" class="nav-link">INDIAN FOOD</a> </li>
+                          <li class="nav-item"><a href="national symbols.html" class="nav-link">NATIONAL SYMBOLS</a> 
+                          </li>
+                          <li class="nav-item"> <a href="agriculture.html" class="nav-link">AGRICULTURE</a></li>
+                            <li class="nav-item"> <a href="weddings.html" class="nav-link">INDIAN WEDDINGS</a> </li>
+                              <li class="nav-item"> <a href="festival.html" class="nav-link">INDIAN FESTIVALS</a></li>
+                              </ul>
+      
+      
+      
+                              <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="m1" data-bs-toggle="dropdown">INDIAN FESTIVALS</a>
+                                <ul class="dropdown-menu">
+                                  <li class="dropdown-item">
+                                    <a class="dropdown-item"  href="bhonallu.html">BHONALLU</a>
+                                   
+                                  </li>
+                                  <li class="dropdown-item">
+                                    <a class="dropdown-item" href="bathukamma.html">BATHUKAMMA</a>
+                                   
+                                  </li>
+                                  <li class="dropdown-item">
+                                    <a class="dropdown-item" href="ganesh.html">GANESH CHAVITHI  </a>
+                                   
+                                  </li>
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="raksha bandhan.html">RAKSHA Bandhan</a>
+      
+                                  </li>
+                                
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="diwali.html">DIWALI</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="sankranthi.html">SANKRANTHI</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="ugadi.html">UGADI</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="shivarathri.html">SHIVARATHRI</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="teej.html">TEEJ</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="chistamas.html">CHRISTAMAS</a>
+      
+                                  </li>
+                                  
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="ramjan.html">RAMJAN</a>
+      
+                                  </li>
+                                  <li class="dropdown-item" ><a  class="dropdown-item" href="muharram.html">MUHARRAM</a>
+      
+                                  </li>
+                                 
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </ul>
+                              </div>
+                                               
+                                             
+                                        </ul>
+      
+      
+      </div>
+
+      <footer class="bg-dark text-white pt--5 pd-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col=md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+<h5 class="text-uppercase md-4 font-weight-bold text-warning">indian culturer</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam facilis, quibusdam eligendi sint distinctio nobis eveniet optio, unde pariatur magni. Quas vero esse, harum hic quaerat dignissimos veritatis eveniet!</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">topics</h5>
+                    <p>
+                        <a href="about.html" class="text-white" style="text-decoration:none;">INDIAN ABOUT</a>
+             
+                        <a href="religions.html" class="text-white" style="text-decoration:none;">INDIAN RELIGIONS</a>
+                  
+                        <a href="agriculture.html" class="text-white" style="text-decoration:none;">INDIAN AGRICULTURE</a>
+                  
+                        <a href="national symbols.html" class="text-white" style="text-decoration:none;">INDIAN NATIONAL SYMBOLS</a>
+                   
+                        <a href="monuments.html" class="text-white" style="text-decoration:none;">INDIAN MONUMENTS</a>
+                    </p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">IMPORTENT LINKS</h5>
+                    <p>
+                        <a href="backbone.html" class="text-white" style="text-decoration:none;">INDIAN BACKBONE</a>
+                        <a href="national festivals.html" class="text-white" style="text-decoration:none;">NATIONAL FESTIVALS</a>
+                        <a href="types of festivals.html" class="text-white" style="text-decoration:none;">TYPES OF FESTIVALS</a>
+                        <a href="weddings.html" class="text-white" style="text-decoration:none;">INDIAN WEDDINGS</a>
+                        <a href="dance.html" class="text-white" style="text-decoration:none;">INDIAN DANCES</a>
+                        <a href="temples.html" class="text-white" style="text-decoration:none;">INDIAN TEMPLES</a>
+                        <a href="jewelery.html" class="text-white" style="text-decoration:none;">INDIAN JEWALERY</a>
+                        <a href="languages.html" class="text-white" style="text-decoration:none;">INDIAN LANGUAGES</a></p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase md-4 font-weight-bold text-warning">CONTACTE</h5>
+                    <i class="fa fa-home"></i> Hyderabad,50001
+                    <i class="fa fa-envelope"></i>archu1431@gamil.com
+                      <i class="fa fa-phone"></i>+91-9876543210<br>
+                          <i class="fa fa-print"></i>+01_225699300
+                    </div>
+
+                    </div>
+                    <hr class="mb-4">
+
+
+        
+        <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+                <p>copyright @1901 All rights rerserved by:
+                    <a href="#" style="text-decoration:none;">
+                    <strong class="text-warning">The providers</strong></a>
+                </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                  <!--  <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                        
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                            <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                            <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                            <i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                            <i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                            <i class="fa fa-youtube"></i></a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <ul class="socialIcons">
+        <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+        <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+        <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+         <li class="pinterest"><a href=""><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
+        <li class="steam"><a href=""><i class="fa fa-fw fa-steam"></i>Steam</a></li>
+        <li class="youtube"><a href=""><i class="fa fa-fw fa-youtube"></i>Youtube</a></li>
+        <li class="Telegram"><a href=""><i class="fa fa-fw fa-telegram"></i>Telegram</a></li>
+        <li class="google-plus"><a href=""><i class="fa fa-fw fa-google-plus"></i>Google-plus</a></li>
+        <li class="Linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+  
+    </ul> 
+        
+</div></div></div></footer>
+   
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+</body>
+</html>

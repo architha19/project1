@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle,min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+     <!-- Font Awesome CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <style>
+      .footer{
+      border:3px  deeppink solid;
+     }
+    
+                ul.socialIcons {
+        padding: 0;
+        text-align:center;
+      }
+      
+      .socialIcons li {
+        background-color: yellow;
+        list-style: none;
+        display: inline-block;
+        margin: 8px;
+        border-radius: 4em;
+        overflow: hidden;
+      }
+      
+      .socialIcons li a {
+        display: block;
+        padding: 0.5em;
+        min-width: 2.28571429em;
+        max-width: 2.28571429em;
+        height: 2.28571429em;
+        white-space: nowrap;
+        line-height: 1em; /*it's working only when you write text with icon*/
+        transition: 0.1s;
+        text-decoration: none;
+        font-family: arial;
+        color: #fff;
+      }
+      
+      .socialIcons li i {
+        margin-right: 0.5em;
+      }
+      
+      .socialIcons li:hover a {
+        max-width: 200px;
+        padding-right: 1em;
+      }
+      
+      .socialIcons .facebook {
+        background-color: #3b5998;
+        box-shadow: 0 0 16px #3b5998;
+      }
+      
+      .socialIcons .twitter {
+        background-color: #00aced;
+        box-shadow: 0 0 16px #00aced;
+      }
+      
+      .socialIcons .instagram {
+        background-color: hsl(344, 88%, 50%);
+        box-shadow: 0 0 16px hsl(344, 88%, 50%);
+      }
+      
+      .socialIcons .pinterest {
+        background-color: #c92228;
+        box-shadow: 0 0 16px #c92228;
+      }
+      
+      .socialIcons .steam {
+        background-color: #666666;
+        box-shadow: 0 0 16px #666666;
+      }
+    
+      .socialIcons .youtube {
+        background-color: #ee1935;
+        box-shadow: 0 0 16px #ee1935;
+      }
+    
+      .socialIcons .Telegram {
+        background-color: #2b92f3;
+        box-shadow: 0 0 16px #2b92f3 ;
+      }
+    
+      .socialIcons .googleplus {
+        background-color: #1927ee;
+        box-shadow: 0 0 16px #1927ee;
+      }
+    
+      .socialIcons .Linkedin {
+        background-color: #5919ee;
+        box-shadow: 0 0 16px #5919ee;
+      }
+       #img1{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img2{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img3{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img4{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img5{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img6{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img7{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img8{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img9{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+    
+        
+      
+      #img10{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img11{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img12{
+        width:50%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img13{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img14{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img15{
+        width:100%;
+        height:100%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img16{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img17{
+        width:80%;
+        height:80%;
+        border: 5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float: right;
+        margin: 50px;
+        
+      }
+      #img{
+        width: 80%;
+        height: 80%;
+        border:5px rgb(1, 1, 20) solid ;
+        padding: 5px;
+        float:right ;margin: 50px;
+      }
+      p{
+        color: aliceblue;
+       }
+       .body{
+    background-image: url(https://i.pinimg.com/600x315/79/d2/aa/79d2aacc757d8958c17c4faf55e4a688.jpg);
+  background-size: cover;
+  }
+    </style>
+</head>
+<body>
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/736x/55/c8/e1/55c8e1c158637d70b33208352634da97.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://www.eoibudapest.gov.in/ascc/docs/7b7b7673204eaac8a7b2fbf2811f6ca623240072.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.toiimg.com/photo/msid-82403294/82403294.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://i0.wp.com/timeskuwait.com/news/wp-content/uploads/2021/08/Spices.jpg?resize=696%2C462&ssl=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA spice bowl</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+      
+        <img src="https://www.ciiblog.in/wp-content/uploads/2019/03/Urban-India5.jpg" class="d-block w-100" height="100%" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA ARTS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.tusktravel.com/blog/wp-content/uploads/2021/04/Top-30-Most-Famous-Festivals-of-India.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA FESTIVALS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.spinonholidays.com/wp-content/uploads/2022/01/historical-monuments-of-india.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA MONUMENTS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://www.oyorooms.com/blog/wp-content/uploads/2018/02/fe.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA WEDDING</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="http://www.general9ledge.com/wp-content/uploads/2020/07/National-Symbols-of-India.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA NATIONAL SYMBOLS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      
+        <img src="https://thesiliconreview.net/story_image_upload/article/thesiliconreview-technology-lifts-agricultural-farms-indian.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>The INDIA AGRICULTURE FARMS</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button></div>
+
+   <!-- Opening of Navtag -->
+   <div class="body">
+    <div class="nav nav-tabs  nav-justified  fixed-top" role="tablist"> 
+       <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+         
+  <div class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="about.html" id="m1" data-bs-toggle="dropdown">ABOUT INDIA</a>
+    <img src="">
+    <ul class="dropdown-menu">
+      <li class="dropdown-item">
+<div class="dropdown-menu">
+<li class="dropdown-item"><a href="history.html" class="dropdown-item">HISTOTY OF INDIA</a></li>
+    <li class="dropdown-item"> <a href="arts.html" class="dropdown-item">INDIAN ARTS</a></li>
+        <li class="dropdown-item"><a href="weddings.html" class="dropdown-item">INDIAN WEDDING</a></li>
+            <li class="dropdown-item"><a href="jewelery.html" class="dropdown-item">INDIAN JEWALLERY</a></li> 
+                <li class="dropdown-item"> <a href="temples.html" class="dropdown-item">INDIAN TEMPLES</a></li>
+                <li class="dropdown-item"> <a href="agriculture.html" class="dropdown-item">AGRICULTURE</a></li>
+                <li class="dropdown-item active"><a href="food.html" class="dropdown-item">INDIAN FOOD</a></li>
+       
+            </div>
+</li>
+
+
+<li class="nav-item"> <a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+  <li class="nav-item"><a href="dance.html" class="nav-link">INDIAN DANCES</a></li> 
+      <li class="nav-item"><a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+           <li class="nav-item active"> <a href="national symbols.html" class="nav-link"><button class="btn btn-danger">NATIONAL SYMBOLS</button></a> </li>
+                  <li class="nav-item"><a href="religions.html" class="nav-link">INDIAN RELIGIONS</a> </li>
+                  <li class="nav-item"><a href="r new style.html" class="nav-link">INDIAN CULTURE</button></a></li>
+                        </ul>
+                      <div class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="" id="m1" data-bs-toggle="dropdown">INDIAN FESTIVALS</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                              <a class="dropdown-item"  href="bhonallu.html">BHONALLU</a>
+                             
+                            </li>
+                            <li class="dropdown-item">
+                              <a class="dropdown-item" href="bathukamma.html">BATHUKAMMA</a>
+                             
+                            </li>
+                            <li class="dropdown-item">
+                              <a class="dropdown-item" href="ganesh.html"> CHAVITHI </a>
+                             
+                            </li>
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="raksha bandhan.html">RAKSHA Bandhan</a>
+
+                            </li>
+                          
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="diwali.html">DIWALI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="sankranthi.html">SANKRANTHI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="ugadi.html">UGADI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="shivarathri.html">SHIVARATHRI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="teej.html">TEEJ</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="chistamas.html">CHRISTAMAS</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="ramjan.html">RAMJAN</a>
+
+                            </li>
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="muharram.html">MUHARRAM</a>
+
+                            </li>
+                       
+
+                            
+                          </ul>
+                        </div>
+                        <li class="nav-item"><a href="login.html" class="nav-link"><button class="btn btn-warning">LOG IN</button></a> </li>
+                                  </ul>
+                                  <div class="abc">
+                                    <form class="form-inline my-2 my-lg-0">
+                                     
+                                      <h6><input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search"><i class="fa fa-search" ></i></h6> 
+                                      <button class="btn btn-success" type="search">search</button>
+                                    </form>
+                                    </div>
+</div>
+  
+  
+   <!-- Closing of nav Tag -->
+<div class="body">
+  <ul class="nav">
+    <div class="row">
+  <li class="nav-item">
+    <a href="national symbols.html">NATIONAL SYMBOLS</a></div>
+    <div class="row">
+      <div class="col">
+      <img src="https://i.ytimg.com/vi/BOBPylKBQoM/maxresdefault.jpg" id="img1">
+    </div>
+    <div class="col">
+      <p>National Symbols of India
+        There are 17 national symbols of India namely Tiranga, Jana Gana Mana, Saka Calendar, Vande Mataram, National Emblem of India, Mango, Ganga, Royal Bengal Tiger, Indian Banyan, Ganges River Dolphin, Indian Peacock, Indian Rupee, King Cobra, Indian Elephant, Lotus, Pumpkin and National Pledge.  Here is the full list of national symbols of India.
+        <br>
+        1	National Flag	Tiranga<br>
+        2	National Anthem	Jana Gana Mana<br>
+        3	National Calendar	Saka calendar <br>
+        4	National Song	Vande Mataram<br>
+        5	National Emblem	National Emblem of India<br>
+        6	National Fruit	Mango<br>
+        7	National River	Ganga<br>
+        8	National Animal	Royal Bengal Tiger<br>
+        9	National Tree	Indian Banyan<br>
+        10	National Aquatic Animal	Ganges River Dolphin<br>
+        11	National Bird	Indian Peacock<br>
+        12	National Currency	Indian Rupee<br>
+        13	National Reptile	King Cobra<br>
+        14	National Heritage Animal	Indian Elephant<br>
+        15	National Flower	Lotus<br>
+        16	National Vegetable	Pumpkin<br>
+        17	Oath of Allegiance	National Pledge<br>
+        Importance of National Symbols of India<br>
+        There are 17 national symbols of India. The Importance of National Symbols is given below.<br>
+        </p>
+  </li></div></div>
+  <div class="row">
+    <li class="nav-item">
+      <a href="National Flag"  class="nav-link">FLAG</a>
+    </div>
+      <div class="row">
+      <div class="col">
+  
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_YI3AwwnO2J41GEx1rkI6a0vEl3iLmNVCA&usqp=CAU" id="img2"></div>
+   
+        <div class="col">
+      <p>The national flag of India is a beautiful tricolour flag with three stripes of saffron, white, and green. At the centre of the flag is Ashoka chakra, which is drawn in navy blue against a white background. The Ashoka chakra is a symbol of the charkha, which is a type of Indian spinning wheel referenced in the teachings of Mahatma Gandhi. The charkha was in the pre-independence version of the Indian national flag. The charkha represents the fact that there is life in movement and, therefore, death in lack of movement. Within Indian culture, it is a representation of the dynamic nature of peaceful change that is so heavily integrated into Indian history.
+              
+        The Indian tricolour was adopted as the country’s national flag on the 22nd of July, 1947. The flag was designed by Pingali Venkayya, who was an Indian freedom fighter.
+        </p>
+       
+       </li></div></div>
+
+
+  <div class="row">
+  <li class="nav-item">
+    <a href="National Anthem "  class="nav-link" float="right"> ANTHEM</a></div>
+    <div class="row">
+      <div class="col">
+    <p> The title of India’s national anthem is ‘Jana Gana Mana’, and it was originally composed in 1911. The anthem was composed in Bengali, which is one of the official languages of India, by the poet and polymath, Rabindranath Tagore. ‘Jana Gana Mana’ has its roots in ‘Bharoto Bhagyo Bidhata’, which is a Brahmo hymn. Only the first verse of this hymn has been adapted as India’s current national anthem, which makes it super short. In fact, it takes just 52 seconds to sing the entirety of ‘Jana Gana Mana’. This song was officially adopted as the national anthem of India on the 24th of January, 1950.
+            
+      At the essence of India’s national anthem is a sense of pluralism, which is central to the country’s identity and cultural heritage. Throughout India’s history of struggling for freedom, the national anthem has been used to inspire the people.
+      </p></div>
+      <div class="col">
+    <img src="https://i0.wp.com/www.hoaxorfact.com/wp-content/uploads/2012/02/UNESCO-declared-Indian-National-Anthem-as-Best-in-the-World-1.jpg?fit=740%2C592" id="img3">
+  </li></div></div>
+
+
+  <div class="row">
+  <li class="nav-item">
+    <a href="National Calendar"  class="nav-link" float="right">CALENDER</a></div>
+   <div class="row">
+    <div class="col">
+    <img src="https://media.istockphoto.com/photos/flat-icon-calendar-july-2022-3d-rendering-picture-id1399046960?b=1&k=20&m=1399046960&s=170667a&w=0&h=eeZhZI9fWE16RFsxEBd7GJvRW_BK5E_L6Cx2DkRA7oE=" id="img3"></div>
+    <div class="col">
+    <p>The national calendar based on the Saka Era, with Chaitra as its first month and a normal year of 365 days was adopted from 22 March 1957 along with the Gregorian calendar for the following official purposes: Gazette of India. News broadcast by All India Radio. Calendars issued by the Government of India.</p>
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href="National Song"  class="nav-link" float="right">SONG</a></div>
+    <div class="row">
+      <div class="col">
+    <p>The song Jana-gana-mana, composed originally in Bangla by Rabindranath Tagore, was adopted in its Hindi version by the Constituent Assembly as the National Anthem of India on January 24, 1950.</p></div>
+    <div class="col">
+    <img src="https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-vande-mataram-indian-republic-day-with-soldier-png-image_320211.jpg" id="img4">
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href=" National Emblem of India" class="nav-link"> EMBLEM</a>
+  </div>
+  <div class="row">
+    <div class="col">
+ 
+<img src="https://media.istockphoto.com/vectors/lion-capital-of-ashoka-in-indian-flag-color-vector-id543466848?k=20&m=543466848&s=612x612&w=0&h=dzT1Dy4gwNBUKbYi-vS_foqupFsQx-1Tcp7HgKSedhQ=" id="img5" ></div>
+<div class="col">
+<p> The national emblem of India is the Lion Capital of Ashoka at Sarnath. It consists of four lions, all of which are standing back to back on a circular abacus. On the abacus, you can see sculptures of an elephant, a horse, a bull, and a lion. These sculptures are separated by wheels. The emblem stands upon an inverted lotus flower in full bloom.
+            
+  The emblem has been used throughout history as a symbol of power, courage, pride, and confidence.
+  </p>
+</li></div></div>
+  
+  <div class="row">
+<li>
+    <a href="National Fruit"  class="nav-link" >FRUIT</a></div>
+    <div class="row">
+      <div class="col">
+    <p> The national fruit of India is the mango. The mango is synonymous with Indian culture, as the fruit is native to India and widely eaten throughout the country. Growing mangoes is embedded within Indian history, and has been practised since the country’s. For instance, the Great Mughal Emperor Akbar, reigned from 1556 to 1605 was famously obsessed with mangoes. Emperor Akbar, who is renowned as the greatest of the Mughal emperors of India, ordered for around 1,00,000 mango trees to be planted in Lakhi Bagh in Darbhanga.
+    </p></div>
+    <div class="col">
+    <img src="https://2.bp.blogspot.com/-m0unLMSmTAE/WVHb2dil16I/AAAAAAAAAX0/9G_jB0uwO3YCAsELXTNrSTY362NmvMt_QCLcBGAs/s1600/Mango.jpeg" id="img6">
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href="National River"  class="nav-link" >RIVER</a>
+  </div>
+  <div class="row">
+    <div class="col">
+    <img src="https://f.hubspotusercontent20.net/hubfs/546379/The%20Story%20and%20Significance%20of%20River%20Ganga-Sodha%20Travel.jpg" id="img7"></div>
+    <div class="col">
+    <p> The national river of India is the Ganga, also known as the Ganges. Hindus regard the Ganga river as the most sacred river on Earth. To show their reverence for this river, Hindus perform a range of rituals on the bank of the Ganga. There are a few Indian cities that are famous for the Ganga river: Varanasi, Allahabad, and Haridwar. The Ganga is a huge river, stretching over 2510 km of mountains plains, and valleys. It is the longest river in all of India.
+    </p>
+  </li> </div></div>
+  <div class="row">
+  <li>
+    <a href="National Animal "  class="nav-link" >ANIMAL</a></div>
+    <div class="row">
+      <div class="col">
+    <p> The national animal of India is the tiger, specifically the Bengal tiger. The tiger, which is known as the Lord of the Jungle, was selected as India’s national animal as it was seen to symbolise the country’s rich wildlife. The main characteristics associated with the tiger are strength, agility, and power, which also makes it an attractive choice for the country’s national animal.
+            
+      The Bengal tiger was officially announced as the national animal of India in April 1973. This announcement coincided with the initiation of Project tiger, which was a campaign to protect the tiger population of India. Before this project was announced, the lion was actually the national animal of India.
+      </p></div>
+      <div class="col">
+    <img src="https://images.unsplash.com/photo-1545462616-efed1939219f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHRpZ2VyJTIwanVtcHxlbnwwfHwwfHw%3D&w=1000&q=80" id="img8">
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href="National Tree"  class="nav-link" >TREE</a></div>
+    <div class="row">
+      <div class="col">
+    <img src="https://threequarterreview.files.wordpress.com/2014/07/banyantree_kim-seng.jpg" id="img9"></div>
+    <div class="col">
+    <p> The national tree of India is the Banyan. The Banyan tree is symbolic of eternal life in Indian culture due to its constantly expanding branches. Another important aspect of the Banyan tree is its symbolic ties with the unity of India through its towering structure and deep roots. The Banyan tree is also known as the Kalpavriksha, which means ‘the wish fulfilling tree’. The Banyan tree also possesses incredible medicinal properties, and it heavily associated with longevity.
+    
+      Due to its huge, expansive structure, the Banyan tree provides shelter for tons of different animals and birds. This is seen as symbolic of the country of India, and the melting pot of races, religions, and castes that exist within it.
+      </p>
+   
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href="National Aquatic"  class="nav-link" >AQUATIC</a></div>
+    <div class="row">
+      <div class="col">
+    <p> The national aquatic animal of India is the River Dolphin, which also goes by the name of the Ganges river dolphin. The River Dolphin used to reside in a number of different rivers across India, Bangladesh, and Nepal, including the Ganges, Brahmaputra and Meghna, Kamaphuli, and Sangu. However, the River Dolphin can no longer be found in these regions.
+            
+      The River Dolphin lives exclusively in freshwater, and is almost completely blind.</p></div>
+      <div class="col">
+    <img src="data:image/jpeg;base64,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" id="img10">
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href="National Bird"  class="nav-link" >BIRD</a></div>
+  <div class="row">
+    <div class="col">
+    <img src="data:image/jpeg;base64,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" id="img11"></div>
+    <div class="col">
+    <p>The national bird of India is the peacock, which is commonly known as the Indian peafowl. The peacock was officially announced as the national bird of India in 1963 as it plays such a huge role in Indian custom and culture.
+            
+      In terms of its symbolism, the peacock is meant to represent grace and beauty. The peacock is also just inherently Indian, which is one of the main reasons why it was chosen as the country’s national bird. Anywhere you go in India, you are likely to run into a peacock. Adopting the peacock as its national bird was also a unique move for India to make, as no other country had it as its national bird.
+      </p>
+  </li></div></div>
+  <div class="row">
+  <li>
+    <a href=" National Currency"  class="nav-link"  >CURRENCY</a></div>
+    <div class="row">
+      <div class="col">
+    <p> The national currency of India is the Indian rupee. The symbol of the Indian rupee, which is ‘₹’, derives from the Devanagari consonant “र”, the phonetic pronunciation of which is ‘ra’. The name of the Indian rupee comes from a silver coin called Rupiya.
+            
+      The Indian rupee was first issued in the 16th century by the Sultan, Sher Shah Suri, and it was continued by the Mughal Empire.
+     </p></div>
+     <div class="col">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Nx9VofxcpauS7-ks-mPamj_-6P4awp99dA&usqp=CAU" id="img12">
+  </li></div></div>
+
+  <div class="row">
+  <li>
+    <a href="National Reptile"  class="nav-link" >REPTILE</a>
+  </div>
+  <div class="row">
+    <div class="col">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPQZeVi7USzlKMci8F8SDh1p1baQAAiT5ow&usqp=CAU" id="img13"></div>
+    <div class="col">
+    <p>Indian culture, religion, and philosophy give the national reptile King Cobra a significant aspect and perception. In India, this snake is associated with Lord Shiva's ornament, Kundalini energy, and speech. It is also seen as a Demi-God.</p>
+
+  </li></div></div>
+
+  <div class="row">
+  <li>
+    <a href="National Heritage Animal"  class="nav-link" >HERITAGE ANIMAL</a></div>
+    <div class="row">
+      <div class="col">
+    <p> In addition to having a national animal of India, there is also a national heritage animal of India, which is the elephant. The Indian elephant is a subspecies of the Asian elephant, which can be found in mainland Asia. There are four different regions throughout India where you can find Indian elephants.
+            
+      Unfortunately, the Indian elephant is an endangered species.</p></div>
+      <div class="col">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlhQlOoYI2NXPWLVzDxu7WpYKYDjJN1MsyBw&usqp=CAU" id="img14">
+  </li></div></div>
+
+  <div class="row">
+  <li>
+    <a href="National Flower"  class="nav-link" >FLOWER</a></div>
+    <div class="row">
+      <div class="col">
+    <img src="https://w0.peakpx.com/wallpaper/404/122/HD-wallpaper-lotus-flowers-lotus-sunset-pink-flowers-beautiful-sky.jpg" id="img15"></div>
+    <div class="col">
+  
+    <p> The national flower of India is the lotus flower. This flower was not just chosen for its beauty; the lotus flower actually plays a very important role in Indian mythology. This is because the lotus is the flower of the goddess Laxmi. The flower is symbolic of wealth, prosperity, and fertility. What’s more, the lotus flower is unique because, as it grows in dirty water, but its long stalk reaches far above the surface, displaying a beautiful, untouched flower on top. This process of growth has led to the lotus being a symbol of purity, achievement, longevity, and good fortune.
+    </p>
+  </li></div></div>
+
+  <div class="row">
+  <li>
+    <a href=" National Vegetable"  class="nav-link" >VEGETABLE</a></div>
+    <div class="row">
+      <div class="col">
+    <p>Indian Pumpkin, also known as “Kaddu” in Hindi, is the National Vegetable of India. India is the second-largest producer of vegetables in the world and contributes to more than a quarter of total global vegetable production.</p>
+    </div>
+    <div class="col">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKAsoMyr_0DgJmtjs8fPJSRxSzIGcDYRoOw&usqp=CAU" id="img16">
+  </li></div></div>
+
+  <div class="row">
+  <li>
+    <a href="National Pledge"  class="nav-link" >PLEDGE</a></div>
+    <div class="row">
+      <div class="col">
+   <img src="https://i.ytimg.com/vi/nX0szAjwemQ/maxresdefault.jpg" id="img17">
+   </div>
+    <div class="col">
+    <p>Initially, the National Pledge was recited with the right hand raised above shoulders while one stands facing the National Flag. The current practice is to recite the Pledge with the right fist clenched at the heart.</p>
+   
+  </li></div></div>
+
+
+  <div class="row">
+  <li>
+    <a href="national game">GAME</a></div>
+    <div class="row">
+   
+   <div class="col">
+     <p> The national game of India is hockey. At the time when it was elected as the national game of India, hockey was extremely popular. Whilst the sport is still popular in India today, the game was at its most popular between the years 1928 and 1956. It was during this time period that India won 6 consecutive gold medals in the Olympic Games for hockey.
+            
+      Hockey was appointed as the national game of India because of the country’s immense success in the sport. At the time at which hockey was made the country’s national game, India had played 24 Olympic hockey matches and won every single one of them.
+      </p></div>
+      <div class="col">
+      <img src="https://img.theweek.in/content/dam/week/news/sports/images/2018/8/31/india-japan-hockey-pti31818.jpg" id="img18">
+  </li>
+  
+   
+    <li class="nav-item"> <a href="temples.html" class="nav-link">INDIAN TEMPLES</a></li>
+      <li class="nav-item"> <a href="login.html" class="nav-link">LOG IN</a> </li>
+        <li class="nav-item"> <a href="about.html" class="nav-link">ABOUT</a> </li>
+          <li class="nav-item"> <a href="jewelery.html" class="nav-link">INDIAN JEWALLERY</a> </li>
+            <li class="nav-item"> <a href="monuments.html" class="nav-link">INDIAN MONUMENTS</a> </li>
+              <li class="nav-item"> <a href="dance.html" class="nav-link">INDIAN DANCES</a> </li>
+                <li class="nav-item">  <a href="arts.html" class="nav-link">INDIAN ARTS</a> </li>
+                  <li class="nav-item">  <a href="food.html" class="nav-link">INDIAN FOOD</a> </li>
+                    <li class="nav-item"> <a href="religions.html" class="nav-link">INDIAN RELIGIONS</a> </li>
+                      <li class="nav-item"> <a href="weddings.html" class="nav-link">INDIAN WEDDINGS</a> </li>
+                        <li class="nav-item">  <a href="festival.html" class="nav-link">INDIAN FESTIVALS</a></li>
+                        <li class="nav-item"> <a href="agriculture.html" class="nav-link">AGRICULTURE</a></li>
+                        </ul>
+
+
+
+                        <div class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="" id="m1" data-bs-toggle="dropdown">INDIAN FESTIVALS</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                              <a class="dropdown-item"  href="bhonallu.html">BHONALLU</a>
+                             
+                            </li>
+                            <li class="dropdown-item">
+                              <a class="dropdown-item" href="bathukamma.html">BATHUKAMMA</a>
+                             
+                            </li>
+                            <li class="dropdown-item">
+                              <a class="dropdown-item" href="ganesh.html">GANESH CHAVITHI  </a>
+                             
+                            </li>
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="raksha bandhan.html">RAKSHA Bandhan</a>
+
+                            </li>
+                          
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="diwali.html">DIWALI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="sankranthi.html">SANKRANTHI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="ugadi.html">UGADI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="shivarathri.html">SHIVARATHRI</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="teej.html">TEEJ</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="chistamas.html">CHRISTAMAS</a>
+
+                            </li>
+                            
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="ramjan.html">RAMJAN</a>
+
+                            </li>
+                            <li class="dropdown-item" ><a  class="dropdown-item" href="muharram.html">MUHARRAM</a>
+
+                            </li>
+                           
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          </ul>
+                        </div>
+                                         
+                                       
+                                
+
+
+      </div></div></div>
+                               <!--
+
+                                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/03/shutterstock_465558758-illustration-of-India-background-showing-its-culture-and-diversity-with-monument-dance-and-festival.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>First slide label</h5>
+                                          <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbVeYv1rBinRlHMpQfegvZsEk-U9R23vjRvg&usqp=CAU" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Second slide label</h5>
+                                          <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw7lwqwifHTUo7o55KAPw7oMuiENtXOyYllg&usqp=CAU" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Third slide label</h5>
+                                          <p>Some representative placeholder content for the third slide.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            
+                                  -->
+                            <div class="footer">
+                                  <footer class="bg-dark text-white pt--5 pd-4">
+                                    <div class="container text-center text-md-left">
+                                        <div class="row text-center text-md-left">
+                                            <div class="col=md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h5 class="text-uppercase md-4 font-weight-bold text-warning">indian culturer</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam facilis, quibusdam eligendi sint distinctio nobis eveniet optio, unde pariatur magni. Quas vero esse, harum hic quaerat dignissimos veritatis eveniet!</p>
+                                            </div>
+                            
+                                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                <h5 class="text-uppercase md-4 font-weight-bold text-warning">topics</h5>
+                                                <p>
+                                                    <a href="about.html" class="text-white" style="text-decoration:none;">INDIAN ABOUT</a>
+                                         
+                                                    <a href="religions.html" class="text-white" style="text-decoration:none;">INDIAN RELIGIONS</a>
+                                              
+                                                    <a href="agriculture.html" class="text-white" style="text-decoration:none;">INDIAN AGRICULTURE</a>
+                                              
+                                                    <a href="national symbols.html" class="text-white" style="text-decoration:none;">INDIAN NATIONAL SYMBOLS</a>
+                                               
+                                                    <a href="monuments.html" class="text-white" style="text-decoration:none;">INDIAN MONUMENTS</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                <h5 class="text-uppercase md-4 font-weight-bold text-warning">IMPORTENT LINKS</h5>
+                                                <p>
+                                                    <a href="backbone.html" class="text-white" style="text-decoration:none;">INDIAN BACKBONE</a>
+                                                    <a href="national festivals.html" class="text-white" style="text-decoration:none;">NATIONAL FESTIVALS</a>
+                                                    <a href="types of festivals.html" class="text-white" style="text-decoration:none;">TYPES OF FESTIVALS</a>
+                                                    <a href="weddings.html" class="text-white" style="text-decoration:none;">INDIAN WEDDINGS</a>
+                                                    <a href="dance.html" class="text-white" style="text-decoration:none;">INDIAN DANCES</a>
+                                                    <a href="temples.html" class="text-white" style="text-decoration:none;">INDIAN TEMPLES</a>
+                                                    <a href="jewelery.html" class="text-white" style="text-decoration:none;">INDIAN JEWALERY</a>
+                                                    <a href="languages.html" class="text-white" style="text-decoration:none;">INDIAN LANGUAGES</a></p>
+                                                </div>
+                            
+                                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                                        <h5 class="text-uppercase md-4 font-weight-bold text-warning">CONTACTE</h5>
+                                                <i class="fa fa-home"></i> Hyderabad,50001
+                                                <i class="fa fa-envelope"></i>archu1431@gamil.com
+                                                  <i class="fa fa-phone"></i>+91-9876543210<br>
+                                                      <i class="fa fa-print"></i>+01_225699300
+                                                </div>
+                            
+                                                </div>
+                                                <hr class="mb-4">
+                            
+                            
+                                    
+                                    <div class="row align-items-center">
+                                        <div class="col-md-7 col-lg-8">
+                                            <p>copyright @1901 All rights rerserved by:
+                                                <a href="#" style="text-decoration:none;">
+                                                <strong class="text-warning">The providers</strong></a>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-5 col-lg-4">
+                                            <div class="text-center text-md-right">
+                                              <!--  <ul class="list-unstyled list-inline">
+                                                    <li class="list-inline-item">
+                                                    
+                                                        <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                        <i class="fa fa-facebook"></i></a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                        <i class="fa fa-twitter"></i></a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                        <i class="fab fa-google-plus"></i></a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                        <i class="fa fa-linkedin"></i></a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;">
+                                                        <i class="fa fa-youtube"></i></a>
+                                                    </li>
+                            
+                            
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>-->
+                                <ul class="socialIcons">
+                                    <li class="facebook"><a href=""><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+                                    <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+                                    <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+                                     <li class="pinterest"><a href=""><i class="fa fa-fw fa-pinterest-p"></i>Pinterest</a></li>
+                                    <li class="steam"><a href=""><i class="fa fa-fw fa-steam"></i>Steam</a></li>
+                                    <li class="youtube"><a href=""><i class="fa fa-fw fa-youtube"></i>Youtube</a></li>
+                                    <li class="Telegram"><a href=""><i class="fa fa-fw fa-telegram"></i>Telegram</a></li>
+                                    <li class="google-plus"><a href=""><i class="fa fa-fw fa-google-plus"></i>Google-plus</a></li>
+                                    <li class="Linkedin"><a href=""><i class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+                              
+                                </ul> 
+                                    
+                            </div></div></div></footer>
+                               
+                            </div>
+                            
+                            
+                         <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+</body>
+</html>
